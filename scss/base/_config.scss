@@ -1,0 +1,31 @@
+// font stacks
+
+$font-family--primary: 'Fira Sans', sans-serif;
+
+// font weights
+
+$font-weight--thin: 100;
+$font-weight--light: 200;
+$font-weight--medium: 300;
+$font-weight--bold: 400;
+$font-weight--ultra-bold: 500;
+
+// color names
+
+$geyser: #DFE6E8;
+$athens-gray: #F3F5F7;
+$dove-gray: #636363;
+$classic-white: #FFFFFF;
+$tundora: #454545;
+$alabaster: #F8F8F8;
+
+// functional colors
+
+$prim: $geyser;
+$sec: $athens-gray;
+$white: $classic-white;
+
+$heading--dark: $tundora;
+$text: $dove-gray;
+$btn-text--light: $alabaster;
+$btn--dark: $dove-gray;

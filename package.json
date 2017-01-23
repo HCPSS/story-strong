@@ -1,0 +1,22 @@
+{
+  "name": "story-strong",
+  "version": "1.0.0",
+  "description": "task file for story strong project assets",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vince",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css": "^4.0.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^2.0.0",
+    "watch": "^1.0.1"
+  }
+}
