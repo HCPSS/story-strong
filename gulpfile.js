@@ -15,7 +15,8 @@ var sassInput = 'scss/**/*.scss';
 var sassOutput = 'css';
 var sassOptions = {
   errLogToConsole: true,
-  outputStyle: 'expanded'
+  outputStyle: 'expanded',
+  includePaths: ['node_modules/susy/sass']
 };
 
 // tasks, listed in order of execution when 'gulp' command is executed in the terminal

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*+* {
+  margin-top: 1.2em;
+}
+
+body {
+	background-color: $prim;
+	line-height: 1.4em;
+	color: $text;
+}
+
+p {
+	font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}

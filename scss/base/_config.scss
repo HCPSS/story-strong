@@ -1,3 +1,14 @@
+// grid
+
+$susy: (
+  container: 1120px,
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
 // font stacks
 
 $font-family--primary: 'Fira Sans', sans-serif;
@@ -29,3 +40,15 @@ $heading--dark: $tundora;
 $text: $dove-gray;
 $btn-text--light: $alabaster;
 $btn--dark: $dove-gray;
+
+// breakpoints 
+
+$x-small: 320px;
+$small: 480px;
+$medium: 620px;
+$large: 768px;
+$x-large: 1024px;
+$largest: 1220px;
+
+
+

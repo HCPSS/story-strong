@@ -1,9 +1,9 @@
-// --------
 // Utilities
-// --------
 
 // calculate em values
 
 @function em($target, $context: $font-default) {
 	@return ($target / $context) * 1em;
 }
+
+// Mixins

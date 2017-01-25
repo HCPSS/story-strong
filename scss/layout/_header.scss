@@ -1,0 +1,61 @@
+header {
+	@include container;
+  padding: gutter(6);
+  @media screen and (max-width: $large - 1) { text-align: center; }
+}
+
+.header__logo {
+	& img:nth-child(1) {
+    max-width: 12%;
+  }
+  & img:nth-child(2) {
+    margin-top: 0;
+    @media screen and (max-width: 429px) { 
+      width: 70%;
+    }
+    @media screen and (max-width: $large - 1) { }
+  }
+  @media screen and (min-width: $largest) { 
+    @include span(5 of 12); 
+  }
+  @media screen and (min-width: $large) and (max-width: $largest - 2) { 
+    @include span(7 of 12); 
+  }
+  @media screen and (max-width: $large - 1) {
+    @include span(12 of 12);
+  }
+}
+
+nav {
+  & ul {
+    list-style-type: none;
+    float: right;
+    & li { 
+      display: block;
+      margin-top: 0.2em;
+      @media screen and (min-width: $small) { 
+        display: inline-block;
+        margin-top: 0;
+        margin-left: 1.2em;
+      }
+    }
+  }
+  @media screen and (min-width: $largest) { 
+    @include span(7 of 12 last); 
+  }
+  @media screen and (min-width: $large) and (max-width: $largest - 2) { 
+    @include span(5 of 12 last); 
+  }
+  @media screen and (max-width: $large - 1) {
+    @include span(12 of 12);
+    ul { 
+      float: none;
+      margin: 0 auto;
+    }
+  }
+}
+
+
+
+
+
