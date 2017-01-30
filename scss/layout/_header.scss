@@ -1,7 +1,7 @@
 header {
 	@include container;
-  padding: gutter(6);
-  @media screen and (max-width: $large - 1) { text-align: center; }
+  padding: 1em;
+  @media screen and (max-width: $large) { text-align: center; }
 }
 
 .header__logo {
@@ -10,18 +10,17 @@ header {
   }
   & img:nth-child(2) {
     margin-top: 0;
-    @media screen and (max-width: 429px) { 
+    @media screen and (max-width: 440px) { 
       width: 70%;
     }
-    @media screen and (max-width: $large - 1) { }
   }
   @media screen and (min-width: $largest) { 
     @include span(5 of 12); 
   }
-  @media screen and (min-width: $large) and (max-width: $largest - 2) { 
+  @media screen and (min-width: $large + 1) and (max-width: $largest - 2) { 
     @include span(7 of 12); 
   }
-  @media screen and (max-width: $large - 1) {
+  @media screen and (max-width: $large) {
     @include span(12 of 12);
   }
 }
@@ -43,10 +42,10 @@ nav {
   @media screen and (min-width: $largest) { 
     @include span(7 of 12 last); 
   }
-  @media screen and (min-width: $large) and (max-width: $largest - 2) { 
+  @media screen and (min-width: $large + 1) and (max-width: $largest - 2) { 
     @include span(5 of 12 last); 
   }
-  @media screen and (max-width: $large - 1) {
+  @media screen and (max-width: $large) {
     @include span(12 of 12);
     ul { 
       float: none;

@@ -1,0 +1,11 @@
+footer {
+  height: em(100px);
+  margin-top: 0em;
+  background-color: $classic-white;
+  border-top: 5px solid $gray--dark;
+  clear: both;
+}
+
+.footer__inner {
+  @include container;
+}

@@ -12,6 +12,7 @@ $susy: (
 // font stacks
 
 $font-family--primary: 'Fira Sans', sans-serif;
+$font-default: 16px;
 
 // font weights
 
@@ -29,6 +30,7 @@ $dove-gray: #636363;
 $classic-white: #FFFFFF;
 $tundora: #454545;
 $alabaster: #F8F8F8;
+$oslo-gray: #95989A;
 
 // functional colors
 
@@ -38,8 +40,9 @@ $white: $classic-white;
 
 $heading--dark: $tundora;
 $text: $dove-gray;
+$heading--light: $oslo-gray;
 $btn-text--light: $alabaster;
-$btn--dark: $dove-gray;
+$gray--dark: $dove-gray;
 
 // breakpoints 
 
