@@ -166,7 +166,7 @@ body {
 
 h1 {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
@@ -288,6 +288,11 @@ nav ul li {
   margin-top: 0.2em;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: #636363;
+}
+
 @media screen and (min-width: 480px) {
   nav ul li {
     display: inline-block;
@@ -334,6 +339,87 @@ nav ul li {
     float: none;
     margin: 0 auto;
   }
+}
+
+.hero-img {
+  background: url(/img/chs-stock-group.jpg) no-repeat center 0px;
+  background-size: cover;
+  height: 25em;
+  max-width: 100%;
+}
+
+@media (min-width: 375px) and (max-width: 400px) {
+  .hero-img {
+    background-image: url(/img/chs-stock-group-480.jpg);
+    height: 9.375em;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 640px) {
+  .hero-img {
+    background-image: url(/img/chs-stock-group-640.jpg);
+    height: 15.625em;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1280px) {
+  .hero-img {
+    background-image: url(/img/chs-stock-group-1280.jpg);
+  }
+}
+
+.heading--center {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.heading--center h1 {
+  text-align: center;
+}
+
+.wrap {
+  background-color: #F3F5F7;
+  margin-top: 0;
+}
+
+.contents {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  padding-top: 2.4em;
+}
+
+.contents:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.row {
+  display: inline-table;
+  width: 100%;
+  max-height: 100%;
+}
+
+.col-8 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.66667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+.col-3--last {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  float: right;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
 }
 
 .section__prim-feature {
@@ -461,7 +547,7 @@ nav ul li {
 
 .section__sec-feature h2 {
   text-align: center;
-  padding-top: 0.7em;
+  padding-top: 0.6em;
 }
 
 .section__sec-feature--tiles {
@@ -469,19 +555,13 @@ nav ul li {
   max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1.4em;
+  padding-bottom: 1.2em;
 }
 
 .section__sec-feature--tiles:after {
   content: " ";
   display: block;
   clear: both;
-}
-
-.row {
-  display: inline-table;
-  width: 100%;
-  max-height: 100%;
 }
 
 @media screen and (max-width: 890px) {
@@ -567,7 +647,7 @@ nav ul li {
 
 @media screen and (max-width: 768px) {
   .story-tile .row:nth-child(3) {
-    margin-top: 1.4em;
+    margin-top: 1.2em;
   }
 }
 
