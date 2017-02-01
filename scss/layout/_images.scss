@@ -1,5 +1,5 @@
 .hero-img {
-	background: url(/img/chs-stock-group.jpg) no-repeat center 0px;
+	background: url(/story-strong/img/chs-stock-group.jpg) no-repeat center 0px;
 	background-size: cover;
 	height: em(400px);
 	max-width: 100%;
@@ -7,16 +7,16 @@
 
 @media (min-width: 375px) and (max-width: 400px) {
 	  .hero-img {
-	    background-image: url(/img/chs-stock-group-480.jpg);
+	    background-image: url(/story-strong/img/chs-stock-group-480.jpg);
 	    height: em(150px);
 	  }
 	}
 @media (min-width: 401px) and (max-width: 640px) {
 	  .hero-img {
-	    background-image: url(/img/chs-stock-group-640.jpg);
+	    background-image: url(/story-strong/img/chs-stock-group-640.jpg);
 	    height: em(250px);
 	  }
 	}
 @media (min-width: 641px) and (max-width: 1280px) {
-	.hero-img { background-image: url(/img/chs-stock-group-1280.jpg); }
+	.hero-img { background-image: url(/story-strong/img/chs-stock-group-1280.jpg); }
 }
