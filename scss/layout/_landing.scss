@@ -40,7 +40,9 @@
 
 .section__sec-feature {
 	@include angle(before);
+  float: left;
 	background-color: $sec;
+  padding-bottom: $stnd-padding;
   & h2 {
     text-align: center;
     padding-top: 0.6em;
@@ -51,7 +53,6 @@
   }
 	&--tiles {
     background-color: $sec;
-		@include container;
-    padding-bottom: 1.2em;
+    padding: $stnd-padding;
 	}
 }
