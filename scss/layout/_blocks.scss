@@ -5,3 +5,69 @@
 		text-align: center;
 	}
 }
+
+.story-tile .row:nth-child(1) {
+  @media screen and (max-width: $x-large) { text-align: center; }
+}
+
+.story-tile {
+  display: block;
+  background-color: $classic-white;
+  padding: $stnd-padding;
+  @include shadow($prim);
+  @media screen and (min-width: $x-large) { 
+    @include span(2 of 4 split);
+    height: em(325px);  
+    margin: gutter(12);
+    padding: gutter(6);
+  }
+  @media screen and (min-width: $large + 1) and (max-width: $x-large - 1) {
+    @include span(2 of 4 split);
+    height: em(425px);
+    margin: gutter(12);
+    padding: gutter(6);
+  } 
+  @media screen and (max-width: $large) { 
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+  & h3 {
+    float: left;
+    width: 100%;
+    @media screen and (min-width: $x-large) { max-width: 70%; }
+  }
+  & h4 {
+    color: $heading--light;
+  }
+  & img {
+    float: none;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 100px;
+    height: em(100px);
+    margin-top: gutter(4);
+    @media screen and (min-width: $x-large) {
+      float: left;
+      margin: gutter(4);
+    }
+  }
+  & .row:nth-child(2) {
+    min-height: 40%;
+  }
+  & .row:nth-child(3) {
+    margin-top: 0;
+    @media screen and (max-width: $large) {
+      margin-top: 1.2em;
+    }
+  }
+  & .btn--sm { 
+    @include button($gray--dark, $classic-white);
+    @include shadow($heading--light);
+  }  
+}
+
+.callout-tile__inner {
+  background-color: $classic-white;
+  padding: $stnd-padding; 
+}

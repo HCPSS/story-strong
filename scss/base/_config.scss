@@ -1,7 +1,7 @@
 // grid
 
 $susy: (
-  container: 1120px,
+  container: 1280px,
   columns: 12,
   gutters: 1/4,
   math: fluid,
@@ -12,6 +12,7 @@ $susy: (
 // font stacks
 
 $font-family--primary: 'Fira Sans', sans-serif;
+
 $font-default: 16px;
 
 // font weights
@@ -53,5 +54,7 @@ $large: 768px;
 $x-large: 1024px;
 $largest: 1220px;
 
+// padding 
 
+$stnd-padding: em(20px);
 

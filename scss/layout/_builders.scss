@@ -3,10 +3,12 @@
 	margin-top: 0;
 }
 
-.contents {
+.prim-contents {
 	@include container;
-	height: 100vh;
-	padding-top: 2.4em;
+	padding: $stnd-padding;
+  @media screen and (min-width: $large) {
+    padding-top: 2.4em;
+  }
 }
 
 .row {
@@ -16,9 +18,21 @@
 }
 
 .col-8 {
-	@include span(8 of 12);
+  @include span(12 of 12);
+  @media screen and (min-width: $x-large) {
+	 @include span(8 of 12);
+  }
+  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
+    @include span(6 of 12);
+  }
 }
 
 .col-3--last {
-	@include span(3 of 12 last);
+  @include span(12 of 12);
+  @media screen and (min-width: $x-large) {
+	 @include span(4 of 12 last);
+  }
+  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
+    @include span(5 of 12 last);
+  }
 }

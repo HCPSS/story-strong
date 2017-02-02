@@ -16,9 +16,6 @@
 
 @mixin button ($bg-color, $txt-color) {
   float: left;
-  @media screen and (min-width: $large) {
-    float: right;
-  }
   width: 175px;
   background-color: $bg-color;
   text-align: center;
