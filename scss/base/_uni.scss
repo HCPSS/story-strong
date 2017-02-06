@@ -12,27 +12,31 @@ body {
 
 h1 { 
   @media screen and (min-width: $x-large ) { font-size: em(44px); }
+  @media (max-width: $x-small + 20) { font-size: em(32px); }
   font-size: em(36px);
-  font-weight: $font-weight--ultra-bold;
+  font-weight: $font-weight--light;
 }
 
 h2 { 
   @media screen and (min-width: $x-large ) { font-size: em(30px); }
   font-size: em(24px);
-  font-weight: $font-weight--bold;
+  font-weight: $font-weight--medium;
 }
 
 h3 { 
   @media screen and (min-width: $x-large ) { font-size: em(24px); }
   font-size: em(22px);
-  font-weight: $font-weight--medium;
+  font-weight: $font-weight--bold;
 }
 
 h4 {
   @media screen and (min-width: $x-large ) { font-size: em(18px); }
-  font-weight: $font-weight--light;
+  font-weight: $font-weight--ultra-bold;
 }
 
-p { font-size: em(18px); }
+p { 
+  @media screen and (min-width: $medium ) { font-size: em(18px); }
+  font-size: $font-default;
+}
 
 img { max-width: 100%; }
