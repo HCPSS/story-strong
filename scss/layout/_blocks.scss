@@ -1,9 +1,17 @@
-.heading--center {
+.h-center {
 	width: 100%;
 	margin: 0 auto;
-	& h1 {
-		text-align: center;
-	}
+  & h1, h2, h3, h4 {
+    text-align: center;
+  }  
+  &--btm-padding { 
+    padding-bottom: $stnd-padding;
+  }  
+}
+
+.callout-tile__inner {
+  background-color: $classic-white;
+  padding: $stnd-padding; 
 }
 
 .story-tile__img {
@@ -46,12 +54,7 @@
     color: $heading--light;
   }
   & img {
-    float: none;
-    margin: 0 auto;
-    background-size: cover;
-    border-radius: 100px;
-    height: em(150px);
-    margin-top: gutter(4);
+    @include story-tile-image;
     @media screen and (min-width: $x-large) {
       float: right;
       margin: gutter(4);
@@ -63,7 +66,89 @@
   }  
 }
 
-.callout-tile__inner {
+.overhang {
+  z-index: 9999;
+  position: relative;
+  background-color: initial !important;
+}
+
+.overhang:nth-child(1) { position: relative; }
+
+.overhang__inner {
+  position: relative;
+  background-color: #F3F5F7;
+  top: 250px;
+  height: 100vh;
+  @media screen and (max-width: $x-large - 1) { top: 325px; }
+}
+
+.overhang__outer {
+  position:relative;
+  top: -250px;
+  @media screen and (max-width: $x-large - 1) { top: -325px; }
+}
+
+.overhang__story-tile {
+  display: block;
   background-color: $classic-white;
-  padding: $stnd-padding; 
+  padding: $stnd-padding;
+  @include shadow($prim);
+  @media screen and (min-width: $largest) {
+    @include span (5 of 12 last);
+    padding: gutter(6);  
+  }
+  @media screen and (min-width: $x-large) and (max-width: $largest - 1) {
+    @include push(1 of 12);
+    @include span(4 of 12);
+    padding: gutter(6);    
+  }
+  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
+    @include push(1 of 12);
+    @include span(5 of 12);
+    padding: gutter(6); 
+  } 
+  @media screen and (max-width: $large - 1) { 
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+  & img {
+    @include story-tile-image;
+  }
+  & .btn--sm {
+    @include button($gray--dark, $classic-white);
+    @include shadow($heading--light);
+  }
+}
+
+.overhang__story-tile-img {
+  float: none;
+  text-align: center; 
+  @media screen and (min-width: $largest) {
+    float: right;
+    text-align: right;   
+  }  
+}
+
+.overhang__img {
+  display: block;
+  @media screen and (min-width: $largest) { @include span(5 of 12); }
+  @media screen and (min-width: $x-large) and (max-width: $largest - 1) {
+    @include span(6 of 12);
+    padding: gutter(6);
+    margin-top: gutter(0.75);
+  }
+  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
+    @include span (6 of 12);
+    padding: gutter(6); 
+    margin-top: gutter(0.6);
+  } 
+  @media screen and (max-width: $large - 1) { 
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+  & img {
+    @media screen and (min-width: $largest) { margin-top: gutter(1); }
+  }
 }
