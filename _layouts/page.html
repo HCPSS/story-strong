@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<div class="heading--center">
+{% if page.main-heading != null %}
+<div class="h-center">
 	<h1>{{ page.main-heading }}</h1>
 </div>
+{% endif %}
 
 {{ content }}
