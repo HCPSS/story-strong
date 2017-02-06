@@ -27,6 +27,15 @@
   }
 }
 
+@mixin story-tile-image {
+  float: none;
+  margin: 0 auto;
+  background-size: cover;
+  border-radius: 100px;
+  height: em(150px);
+  margin-top: gutter(4);
+}
+
 // Big thanks to Viget for this: https://www.viget.com/articles/angled-edges-with-css-masks-and-transforms
 @mixin angle($pseudo, $flip: false, $angle: 1.25deg) {
   // Possible values for $pseudo are: before, after, both
