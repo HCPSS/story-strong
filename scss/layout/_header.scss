@@ -23,6 +23,7 @@ header {
   @media screen and (max-width: $large) {
     @include span(12 of 12);
   }
+  a { text-decoration: none; }
 }
 
 nav {
