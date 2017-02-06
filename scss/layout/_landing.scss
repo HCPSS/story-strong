@@ -37,22 +37,3 @@
     border-radius: 100px;
   }
 }
-
-.section__sec-feature {
-	@include angle(before);
-  float: left;
-	background-color: $sec;
-  padding-bottom: $stnd-padding;
-  & h2 {
-    text-align: center;
-    padding-top: 0.6em;
-    @media screen and (max-width: $large - 1) {
-      padding-left: $stnd-padding;
-      padding-right: $stnd-padding;
-    }
-  }
-	&--tiles {
-    background-color: $sec;
-    padding: $stnd-padding;
-	}
-}
