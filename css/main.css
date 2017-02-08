@@ -430,11 +430,6 @@ nav ul li a {
   padding-bottom: 1.25em;
 }
 
-.callout-tile__inner {
-  background-color: #FFFFFF;
-  padding: 1.25em;
-}
-
 @media screen and (max-width: 1024px) {
   .story-tile__img {
     text-align: center;
@@ -541,7 +536,7 @@ nav ul li a {
   padding: 2.5%;
 }
 
-.overhang {
+.overhang-block {
   z-index: 9999;
   position: relative;
   background-color: initial !important;
@@ -551,7 +546,7 @@ nav ul li a {
   position: relative;
 }
 
-.overhang__inner {
+.overhang-btm__inner {
   position: relative;
   background-color: #F3F5F7;
   top: 250px;
@@ -559,23 +554,67 @@ nav ul li a {
 }
 
 @media screen and (max-width: 1023px) {
-  .overhang__inner {
+  .overhang-btm__inner {
     top: 325px;
   }
 }
 
-.overhang__outer {
+.overhang-btm__outer {
   position: relative;
   top: -250px;
 }
 
 @media screen and (max-width: 1023px) {
-  .overhang__outer {
+  .overhang-btm__outer {
     top: -325px;
   }
 }
 
-.overhang__story-tile {
+@media screen and (min-width: 1220px) {
+  .overhang__tile {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 41.66667%;
+    float: right;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1219px) {
+  .overhang__tile {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33.33333%;
+    float: right;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .overhang__tile {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 41.66667%;
+    float: right;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .overhang__tile {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+}
+
+.overhang__tile--content {
   display: block;
   background-color: #FFFFFF;
   padding: 1.25em;
@@ -584,56 +623,7 @@ nav ul li a {
   box-shadow: 0 2px 4px #DFE6E8;
 }
 
-@media screen and (min-width: 1220px) {
-  .overhang__story-tile {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 41.66667%;
-    float: right;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    padding: 1.66667%;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1219px) {
-  .overhang__story-tile {
-    margin-left: 8.33333%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 33.33333%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    padding: 1.66667%;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .overhang__story-tile {
-    margin-left: 8.33333%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 41.66667%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    padding: 1.66667%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .overhang__story-tile {
-    box-sizing: border-box;
-    width: 100%;
-    float: left;
-  }
-}
-
-.overhang__story-tile img {
+.overhang__tile--content img {
   float: none;
   margin: 0 auto;
   background-size: cover;
@@ -642,7 +632,7 @@ nav ul li a {
   margin-top: 2.5%;
 }
 
-.overhang__story-tile .btn--sm {
+.overhang__tile--content .btn--sm {
   float: left;
   width: 175px;
   background-color: #636363;
@@ -654,18 +644,19 @@ nav ul li a {
   box-shadow: 0 2px 4px #95989A;
 }
 
-.overhang__story-tile .btn--sm p {
+.overhang__tile--content .btn--sm p {
   font-size: 1em;
   padding: 2.5%;
 }
 
-.overhang__story-tile-img {
+.overhang__tile-img {
   float: none;
   text-align: center;
 }
 
 @media screen and (min-width: 1220px) {
-  .overhang__story-tile-img {
+  .overhang__tile-img {
+    padding: 1%;
     float: right;
     text-align: right;
   }
@@ -696,6 +687,7 @@ nav ul li a {
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
+    margin-left: 8.33333%;
     padding: 1.66667%;
     margin-top: 13.33333%;
   }
@@ -727,6 +719,33 @@ nav ul li a {
   .overhang__img img {
     margin-top: 10%;
   }
+}
+
+.thatch-before:before {
+  z-index: 1;
+  position: relative;
+  content: "";
+  display: block;
+  height: 100px;
+  background-image: url(/story-strong/img/light-thatching.png);
+  background-repeat: repeat-x;
+  right: -3%;
+}
+
+.thatch-before > .thatch-target {
+  position: relative;
+  top: -88.5px;
+  z-index: 2;
+}
+
+.callout-tile__inner {
+  -moz-box-shadow: 0 2px 4px #DFE6E8;
+  -webkit-box-shadow: 0 2px 4px #DFE6E8;
+  box-shadow: 0 2px 4px #DFE6E8;
+  display: inline-block;
+  position: relative;
+  padding: 1.25em;
+  background-color: #FFFFFF;
 }
 
 .container--stnd-padding {
