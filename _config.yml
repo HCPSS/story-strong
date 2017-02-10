@@ -1,5 +1,5 @@
 baseurl: "/story-strong/" # the subpath of your site, e.g. /blog
-twitter_username:  
+twitter_username: "hcpss-storystrong"
 
 # Build settings
 markdown: kramdown
