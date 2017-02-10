@@ -1,0 +1,72 @@
+.current-overhang__inner {
+  @include overhang-inner($top: 0);
+}
+
+.current-overhang__outer {
+  @include overhang-outer($top: -250px);
+}
+
+.current-overhang__tile {
+  @media screen and (min-width: $largest) {
+    @include span (5 of 12 last);
+  }
+  @media screen and (min-width: $x-large) and (max-width: $largest - 1) {
+    @include span(4 of 12 );  
+    @include push(1 of 12); 
+  }
+  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
+    @include span(5 of 12 last);
+  } 
+  @media screen and (max-width: $large - 1) { 
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+}
+
+.current-overhang__tile--content {
+  display: block;
+  background-color: $classic-white;
+  padding: $stnd-padding;
+  @include shadow($prim);
+  & img {
+    @include story-tile-image;
+  }
+  & .btn--sm {
+    @include button($gray--dark, $classic-white);
+    @include shadow($heading--light);
+  }
+}
+
+.current-overhang__tile-img {
+  float: none;
+  text-align: center; 
+  @media screen and (min-width: $largest) {
+    padding: gutter(10);
+    float: right;
+    text-align: right;   
+  }  
+}
+
+.current-overhang__img {
+  display: block;
+  @media screen and (min-width: $largest) { @include span(5 of 12); }
+  @media screen and (min-width: $x-large) and (max-width: $largest - 1) {
+    @include span(6 of 12);
+    padding: gutter(6);
+    margin-top: 22%;
+  }
+  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
+    @include span (7 of 12);
+    padding: gutter(6); 
+    margin-top: 15%;
+  } 
+  @media screen and (max-width: $large - 1) { 
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+  & img {
+    @media screen and (min-width: $largest) { margin-top: gutter(1); }
+  }
+}
