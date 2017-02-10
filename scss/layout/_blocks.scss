@@ -61,94 +61,6 @@
   }  
 }
 
-.overhang-block {
-  z-index: 9999;
-  position: relative;
-  background-color: initial !important;
-}
-
-.overhang:nth-child(1) { position: relative; }
-
-.overhang-btm__inner {
-  position: relative;
-  background-color: #F3F5F7;
-  top: 250px;
-  height: 100vh;
-  @media screen and (max-width: $x-large - 1) { top: 325px; }
-}
-
-.overhang-btm__outer {
-  position:relative;
-  top: -250px;
-  @media screen and (max-width: $x-large - 1) { top: -325px; }
-}
-
-.overhang__tile {
-  @media screen and (min-width: $largest) {
-    @include span (5 of 12 last);
-  }
-  @media screen and (min-width: $x-large) and (max-width: $largest - 1) {
-    @include span(4 of 12 last);   
-  }
-  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
-    @include span(5 of 12 last);
-  } 
-  @media screen and (max-width: $large - 1) { 
-    box-sizing: border-box;
-    width: 100%;
-    float: left;
-  }
-}
-
-.overhang__tile--content {
-  display: block;
-  background-color: $classic-white;
-  padding: $stnd-padding;
-  @include shadow($prim);
-  & img {
-    @include story-tile-image;
-  }
-  & .btn--sm {
-    @include button($gray--dark, $classic-white);
-    @include shadow($heading--light);
-  }
-}
-
-.overhang__tile-img {
-  float: none;
-  text-align: center; 
-  @media screen and (min-width: $largest) {
-    padding: gutter(10);
-    float: right;
-    text-align: right;   
-  }  
-}
-
-.overhang__img {
-  display: block;
-  @media screen and (min-width: $largest) { @include span(5 of 12); }
-  @media screen and (min-width: $x-large) and (max-width: $largest - 1) {
-    @include span(6 of 12);
-    @include push(1 of 12);
-    padding: gutter(6);
-    margin-top: gutter(0.75);
-  }
-  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
-    @include span (6 of 12);
-    
-    padding: gutter(6); 
-    margin-top: gutter(0.6);
-  } 
-  @media screen and (max-width: $large - 1) { 
-    box-sizing: border-box;
-    width: 100%;
-    float: left;
-  }
-  & img {
-    @media screen and (min-width: $largest) { margin-top: gutter(1); }
-  }
-}
-
 .thatch-before {
   &:before {
     z-index: 1;
@@ -157,7 +69,6 @@
     display: block;
     height: 100px;
     background-image: url(/story-strong/img/light-thatching.png);
-    background-repeat: repeat-x;
     right: -3%;
   }
   & > .thatch-target {
