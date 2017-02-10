@@ -8,6 +8,24 @@
 
 // Mixins
 
+@mixin overhang-inner($top : null, $height : 100vh) {
+  position: relative;
+  background-color: #F3F5F7;
+  top: $top;
+  height: $height;
+}
+
+@mixin overhang-outer($top : null) {
+  position:relative;
+  margin-top: $top;  
+}
+
+@mixin contain ($color, $padding : $stnd-padding) {
+  @include container;
+  padding: $padding;
+  background-color: $color;
+}
+
 @mixin shadow ($color) {
   -moz-box-shadow: 0 2px 4px $color;
   -webkit-box-shadow: 0 2px 4px $color;
@@ -27,13 +45,13 @@
   }
 }
 
-@mixin story-tile-image {
+@mixin story-tile-image($height : em(150px), $mg-top : gutter(4)) {
   float: none;
   margin: 0 auto;
   background-size: cover;
   border-radius: 100px;
-  height: em(150px);
-  margin-top: gutter(4);
+  height: $height;
+  margin-top: $mg-top;
 }
 
 // Big thanks to Viget for this: https://www.viget.com/articles/angled-edges-with-css-masks-and-transforms
