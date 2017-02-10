@@ -17,6 +17,10 @@
       & .btn--sm { 
         @include button($classic-white, $text);
         @include shadow($heading--light);
+        & a { 
+          text-decoration: none;
+          color: $text;
+        }
       }
     }
 	}

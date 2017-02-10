@@ -1,8 +1,20 @@
-.container--stnd-padding {
-	@include container;
-	padding: $stnd-padding;
-  background-color: $sec;
+.container {
+  @include container;
 }
+
+.container--stnd-padding-prim {
+  @include contain($prim);
+}
+
+.container--stnd-padding-sec {
+  @include contain($sec);
+}
+
+.container--stnd-padding-white {
+  @include contain($classic-white);
+}
+
+.full { width: 100%; }
 
 .full--no-mg {
   background-color: $sec;
@@ -47,4 +59,11 @@
   }
 }
 
+.overhang-block {
+  z-index: 9999;
+  position: relative;
+  background-color: initial !important;
+}
+
+.overhang:nth-child(1) { position: relative; }
 
