@@ -4,6 +4,7 @@ title: Service Projects and World Travel
 categories: 
 author: Tanya, Glenelg HS, Class of 2018
 summary: Tanya helped build houses in Brazil over the summer. This inspired her to do more at home to help those who are less fortunate.
+prof-img: /story-strong/img/headshot-cover.jpg
 ---
 
 <img class="post__img" src="http://www.hcpss.org/wp-content/uploads/2017/02/ahs-stock-students-building.jpg">
