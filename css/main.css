@@ -607,7 +607,7 @@ nav ul li a {
 
 .story-tile .btn--sm {
   float: left;
-  width: 175px;
+  width: 10.9375em;
   background-color: #636363;
   text-align: center;
   border-radius: 10px;
@@ -903,7 +903,7 @@ nav ul li a {
 
 .current-overhang__tile--content .btn--sm {
   float: left;
-  width: 175px;
+  width: 10.9375em;
   background-color: #636363;
   text-align: center;
   border-radius: 10px;
@@ -1295,7 +1295,7 @@ nav ul li a {
 
 .section__prim-feature--story article .btn--sm {
   float: left;
-  width: 175px;
+  width: 10.9375em;
   background-color: #FFFFFF;
   text-align: center;
   border-radius: 10px;

@@ -5,16 +5,8 @@ layout: default
 <div class="hero-img--post" style="background: url({{ page.bg-img }}) no-repeat center 0px;"></div>
 
 <div class="audio-post__inner-container">
-  <section class="container overhang-block">
-      <div class="post__summ">
-      <div class="post__summ-img">
-        <img src="{{ page.prof-img }}">
-      </div>
-        <h1>{{ page.title }}</h1>
-        <h4>{{ page.author }}</h4>
-        <p>{{ page.summary }}</p>
-      </div>  
-  </section>
+
+  {% include post-summary.html %}
 
   <section class="full--no-mg post-overhang__outer">
     <div class="container--stnd-padding-sec post-overhang__inner">
@@ -32,4 +24,5 @@ layout: default
       </section>
     </div> 
   </section>
+
 </div>

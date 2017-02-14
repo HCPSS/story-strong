@@ -43,7 +43,7 @@
 
 @mixin button ($bg-color, $txt-color) {
   float: left;
-  width: 175px;
+  width: em(175px);
   background-color: $bg-color;
   text-align: center;
   border-radius: 10px;
