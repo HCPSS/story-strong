@@ -1,7 +1,5 @@
-.hero-img {
-	background: url(/story-strong/img/chs-stock-group.jpg) no-repeat center 0px;
-	height: em(400px);
-	max-width: 100%;
+.hero-img--base {
+	@include hero-img;
 	& h1 {
     width: 40%;
     margin-left: auto;
@@ -18,30 +16,33 @@
 	}
 }	
 
+.hero-img--about { background: url(/story-strong/img/chs-stock-group.jpg) no-repeat center 0px; }
+
+.hero-img--post { 
+  @include hero-img($h : em(700px), $md-h : em(600px), $sm-h : em(400px));
+}
+
 @media (min-width: $x-small) and (max-width: $small) {
-	  .hero-img {
-	    background-image: url(/story-strong/img/chs-stock-group-480.jpg);
-      background-size: cover;
-	    height: em(150px);
-      & h1 {
-        width: 100%;
-      }
-	  }
-	}
+  .hero-img--about {
+    @include hero-img($url : "/story-strong/img/chs-stock-group-480.jpg");
+    & h1 {
+      width: 100%;
+    }
+  }
+}
+
 @media (min-width: $small + 1) and (max-width: $medium) {
-	  .hero-img {
-	    background-image: url(/story-strong/img/chs-stock-group-640.jpg);
-      background-size: cover;
-	    height: em(250px);
-      & h1 {
-        width: 80%;
-      }
-	  }
-	}
+  .hero-img--about {
+    @include hero-img($url : "/story-strong/img/chs-stock-group-640.jpg");
+    & h1 {
+      width: 80%;
+    }
+  }
+}
+
 @media (min-width: $medium + 1) and (max-width: $largest) {
-	.hero-img { 
-    background-image: url(/story-strong/img/chs-stock-group-1280.jpg);
-    background-size: cover; 
+  .hero-img--about { 
+    @include hero-img($url : "/story-strong/img/chs-stock-group-1280.jpg");
     & h1 {
       width: 70%;
     }
