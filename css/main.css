@@ -161,12 +161,13 @@ textarea {
 
 body {
   background-color: #DFE6E8;
+  background: linear-gradient(to right, #DFE6E8, #e4e4e4);
   color: #636363;
 }
 
 h1 {
   font-size: 2.25em;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 1024px) {
@@ -183,7 +184,7 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 1024px) {
@@ -194,7 +195,7 @@ h2 {
 
 h3 {
   font-size: 1.375em;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 1024px) {
@@ -204,7 +205,7 @@ h3 {
 }
 
 h4 {
-  font-weight: 600;
+  font-weight: 200;
 }
 
 @media screen and (min-width: 1024px) {
@@ -363,13 +364,26 @@ nav ul li a {
   }
 }
 
-.hero-img {
-  background: url(/story-strong/img/chs-stock-group.jpg) no-repeat center 0px;
+.hero-img--base {
+  background-image: url();
+  background-size: cover !important;
   height: 25em;
   max-width: 100%;
 }
 
-.hero-img h1 {
+@media (min-width: 320px) and (max-width: 480px) {
+  .hero-img--base {
+    height: 9.375em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 620px) {
+  .hero-img--base {
+    height: 15.625em;
+  }
+}
+
+.hero-img--base h1 {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
@@ -379,40 +393,112 @@ nav ul li a {
   top: 40%;
 }
 
-.hero-img h1:after {
+.hero-img--base h1:after {
   content: " ";
   display: block;
   clear: both;
 }
 
+.hero-img--about {
+  background: url(/story-strong/img/chs-stock-group.jpg) no-repeat center 0px;
+}
+
+.hero-img--post {
+  background-image: url();
+  background-size: cover !important;
+  height: 43.75em;
+  max-width: 100%;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
-  .hero-img {
-    background-image: url(/story-strong/img/chs-stock-group-480.jpg);
-    background-size: cover;
+  .hero-img--post {
+    height: 25em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 620px) {
+  .hero-img--post {
+    height: 37.5em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .hero-img--about {
+    background-image: url("/story-strong/img/chs-stock-group-480.jpg");
+    background-size: cover !important;
+    height: 25em;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) and (min-width: 320px) and (max-width: 480px) {
+  .hero-img--about {
     height: 9.375em;
   }
-  .hero-img h1 {
+}
+
+@media (min-width: 320px) and (max-width: 480px) and (min-width: 481px) and (max-width: 620px) {
+  .hero-img--about {
+    height: 15.625em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .hero-img--about h1 {
     width: 100%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 620px) {
-  .hero-img {
-    background-image: url(/story-strong/img/chs-stock-group-640.jpg);
-    background-size: cover;
+  .hero-img--about {
+    background-image: url("/story-strong/img/chs-stock-group-640.jpg");
+    background-size: cover !important;
+    height: 25em;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 620px) and (min-width: 320px) and (max-width: 480px) {
+  .hero-img--about {
+    height: 9.375em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 620px) and (min-width: 481px) and (max-width: 620px) {
+  .hero-img--about {
     height: 15.625em;
   }
-  .hero-img h1 {
+}
+
+@media (min-width: 481px) and (max-width: 620px) {
+  .hero-img--about h1 {
     width: 80%;
   }
 }
 
 @media (min-width: 621px) and (max-width: 1220px) {
-  .hero-img {
-    background-image: url(/story-strong/img/chs-stock-group-1280.jpg);
-    background-size: cover;
+  .hero-img--about {
+    background-image: url("/story-strong/img/chs-stock-group-1280.jpg");
+    background-size: cover !important;
+    height: 25em;
+    max-width: 100%;
   }
-  .hero-img h1 {
+}
+
+@media (min-width: 621px) and (max-width: 1220px) and (min-width: 320px) and (max-width: 480px) {
+  .hero-img--about {
+    height: 9.375em;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 1220px) and (min-width: 481px) and (max-width: 620px) {
+  .hero-img--about {
+    height: 15.625em;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 1220px) {
+  .hero-img--about h1 {
     width: 70%;
   }
 }
@@ -967,6 +1053,7 @@ nav ul li a {
   border-radius: 100px;
   height: 7.8125em;
   margin-top: 1%;
+  float: right;
   margin-bottom: 2.5%;
 }
 
@@ -976,6 +1063,12 @@ nav ul li a {
     margin-bottom: 0px;
     margin-left: 1.66667%;
     margin-right: 1.66667%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .post__summ-img img {
+    float: none;
   }
 }
 
@@ -1082,6 +1175,34 @@ nav ul li a {
   .post__img {
     float: right;
     margin: 1.25em;
+  }
+}
+
+.audio-post__inner-container {
+  margin-top: -20%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .audio-post__inner-container {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 620px) {
+  .audio-post__inner-container {
+    margin-top: -58%;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 768px) {
+  .audio-post__inner-container {
+    margin-top: -50%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+  .audio-post__inner-container {
+    margin-top: -40%;
   }
 }
 
