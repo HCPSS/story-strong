@@ -2,8 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 node_modules
-assets/main.min.css
-
-css/main.css
-
-css/maps/main.css.map
+assets
+css
