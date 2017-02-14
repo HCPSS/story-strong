@@ -23,6 +23,7 @@
   text-align: center;
   & img {
     @include story-tile-image($height : em(125px), $mg-top : gutter(10));
+    float: right;
     margin-bottom: gutter(4);
     @media screen and (min-width: $x-large) {
       float: right;
@@ -30,6 +31,7 @@
       margin-left: gutter(6);
       margin-right: gutter(6);
     }
+    @media screen and (max-width: $small) { float: none; }
   }
 }
 
@@ -88,6 +90,14 @@
     float: right;
     margin: $stnd-padding;
   }
+}
+
+.audio-post__inner-container {
+  margin-top: -20%;
+  @media (min-width: $x-small) and (max-width: $small) { margin-top: 0px; }
+  @media (min-width: $small + 1) and (max-width: $medium) { margin-top: -58%; }
+  @media (min-width: $medium + 1) and (max-width: $large) { margin-top: -50%; }
+  @media (min-width: $large + 1) and (max-width: 1000px) { margin-top: -40%; }
 }
 
 .fb-share-button {
