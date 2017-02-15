@@ -29,7 +29,7 @@
   @media (min-width: $small + 1) and (max-width: $medium) { height: $md-h }
 }
 
-@mixin contain ($color, $padding : $stnd-padding) {
+@mixin contain ($color : null, $padding : $stnd-padding) {
   @include container;
   padding: $padding;
   background-color: $color;
