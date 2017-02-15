@@ -1,0 +1,8 @@
+        <div class="row post-tags">
+        <span><p>Tagged as:</p></span>
+          <p class="post-tags--list">
+            {% for tag in page.tags %}
+              <a href="{{ site.baseurl }}tags#{{ tag | cgi_escape }}" class="tag">{{ tag }}{% if forloop.last == false %}, {% endif %}</a>
+            {% endfor %}
+          </p>
+        </div>
