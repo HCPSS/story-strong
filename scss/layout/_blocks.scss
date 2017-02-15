@@ -78,6 +78,10 @@
   }
 }
 
+.thatch-sibling {
+  @media screen and (max-width: $large - 1) { margin-top: -66px; }
+}
+
 .callout-tile__inner {
   @include shadow($prim);   
   display: inline-block; 

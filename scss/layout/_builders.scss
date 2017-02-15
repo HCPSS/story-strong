@@ -2,6 +2,10 @@
   @include container;
 }
 
+.container--stnd-padding {
+  @include contain;
+}
+
 .container--stnd-padding-prim {
   @include contain($prim);
 }
@@ -39,6 +43,20 @@
   background-color: $sec;
 }
 
+.single-col--center {
+  margin: 0 auto;
+  @include span(12 of 12);
+  float: none;
+  @media screen and (min-width: $x-large) {
+   @include span(6 of 12);
+   float: none;
+  }
+  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
+    @include span(8 of 12);
+    float: none;
+  }
+}
+
 .col-8 {
   @include span(12 of 12);
   @media screen and (min-width: $x-large) {
@@ -49,13 +67,35 @@
   }
 }
 
-.col-3--last {
+.col-4--last {
   @include span(12 of 12);
   @media screen and (min-width: $x-large) {
 	 @include span(4 of 12 last);
   }
   @media screen and (min-width: $large) and (max-width: $x-large - 1) {
+    @include span(6 of 12 last);
+  }
+}
+
+.col-5 {
+  @include span(12 of 12);
+  @media screen and (min-width: $x-large) {
+   @include span(5 of 12);
+  }
+  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
+    @include span(6 of 12);
+  }
+}
+
+.col-7--push-last {
+  @include span(12 of 12);
+  @media screen and (min-width: $x-large) {
+   @include span(6 of 12 last);
+   @include push(1 of 12);
+  }
+  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
     @include span(5 of 12 last);
+    @include push(1 of 12);
   }
 }
 
