@@ -1,7 +1,6 @@
 ---
 layout: post-audio
 title: How Football Shaped my Approach to Life
-category: 2017
 tags: [Long Reach High School, Athletics, Class of 2019] 
 author: Edward, Long Reach High School, Class of 2019
 summary: High school challenged Edward in ways he didn’t expect, but it was his lessons from the field that got him through some of his roughest patches.
