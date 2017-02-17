@@ -18,13 +18,16 @@
 
 .hero-img--about { background: url(/story-strong/img/chs-stock-group.jpg) no-repeat center 0px; }
 
+.hero-img--tags { background: url(/story-strong/img/test-1280.jpg) no-repeat center 0px; }
+
 .hero-img--post { 
   @include hero-img($h : em(700px), $md-h : em(600px), $sm-h : em(400px));
 }
 
 @media (min-width: $x-small) and (max-width: $small) {
-  .hero-img--about {
-    @include hero-img($url : "/story-strong/img/chs-stock-group-480.jpg");
+  .hero-img--about { @include hero-img($url : "/story-strong/img/chs-stock-group-480.jpg"); }
+  .hero-img--tags { @include hero-img($url : "/story-strong/img/test-480.jpg"); }
+  .hero-img--about, .hero-img--tags {
     & h1 {
       width: 100%;
     }
@@ -32,8 +35,9 @@
 }
 
 @media (min-width: $small + 1) and (max-width: $medium) {
-  .hero-img--about {
-    @include hero-img($url : "/story-strong/img/chs-stock-group-640.jpg");
+  .hero-img--about { @include hero-img($url : "/story-strong/img/chs-stock-group-640.jpg"); }
+  .hero-img--tags { @include hero-img($url : "/story-strong/img/test-640.jpg"); }
+  .hero-img--about, .hero-img--tags {
     & h1 {
       width: 80%;
     }
@@ -41,8 +45,9 @@
 }
 
 @media (min-width: $medium + 1) and (max-width: $largest) {
-  .hero-img--about { 
-    @include hero-img($url : "/story-strong/img/chs-stock-group-1280.jpg");
+  .hero-img--about { @include hero-img($url : "/story-strong/img/chs-stock-group-1280.jpg"); }
+  .hero-img--tags { @include hero-img($url : "/story-strong/img/test-1280.jpg"); }
+  .hero-img--about, .hero-img--tags {
     & h1 {
       width: 70%;
     }
