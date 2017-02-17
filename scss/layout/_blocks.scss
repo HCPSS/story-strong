@@ -58,6 +58,10 @@
   & .btn--sm { 
     @include button($gray--dark, $classic-white);
     @include shadow($heading--light);
+    & a {
+      text-decoration: none;
+      color: $classic-white;
+    }
   }  
 }
 
