@@ -21,7 +21,10 @@
 .hero-img--tags { background: url(/story-strong/img/test-1280.jpg) no-repeat center 0px; }
 
 .hero-img--post { 
-  @include hero-img($h : em(525px), $md-h : em(500px), $sm-h : em(400px));
+  background-size: cover !important;
+  height: em(525px);
+  max-width: 100%;
+  @media (min-width: $x-small) and (max-width: $medium) { height: em(400px) }
 }
 
 @media (min-width: $x-small) and (max-width: $small) {

@@ -401,21 +401,14 @@ nav ul li a {
 }
 
 .hero-img--post {
-  background-image: url();
   background-size: cover !important;
   height: 32.8125em;
   max-width: 100%;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 620px) {
   .hero-img--post {
     height: 25em;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 620px) {
-  .hero-img--post {
-    height: 31.25em;
   }
 }
 
@@ -1311,7 +1304,7 @@ nav ul li a {
 
 .post-overhang__outer {
   position: relative;
-  margin-top: -100px;
+  margin-top: -120px;
 }
 
 @media screen and (max-width: 620px) {
