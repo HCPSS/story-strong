@@ -1,0 +1,43 @@
+.post-tags {
+  & span p:first-of-type { 
+    float: left;
+    margin-right: 0.6em;
+  }
+}
+
+.post-tags--list {
+  float: left;
+  position: relative;
+  margin: 0;
+  & a { 
+    color: $atlantic;
+    text-decoration: none;
+    &:hover {
+      color: darken($atlantic, 10%);
+    }
+  }
+}
+
+.tag__marker-group {
+  @extend .post-tags--list;
+  margin-top: 1.2em;
+  & a {
+    color: $gray--dark;
+  }
+}
+
+.tag__marker-item {
+  display: inline-block;
+  padding: 0.3em;
+  margin: 0.3em 0.6em 0em 0em;
+  background-color: $classic-white;
+  @include shadow($heading--light);
+}
+
+.tagged-posts a {
+  color: $atlantic;
+  text-decoration: none;
+  &:hover {
+    color: darken($atlantic, 10%);
+  }
+}
