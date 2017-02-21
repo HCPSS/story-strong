@@ -21,11 +21,11 @@ to the `site_tags` variable. -->
 		<section class="col-5 thatch-before">
 			<div class="callout-tile__inner thatch-target">
 			<h2>Story Tags</h2>
-			<p class="post-tags__marker-group">
+			<p class="tag__marker-group">
 			  {% for item in (0..site.tags.size) %}
 			  {% unless forloop.last %}
 			    {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-			      <a class="post-tags__marker-item" href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span> </a>
+			      <a class="tag__marker-item" href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span> </a>
 			  {% endunless %}
 			  {% endfor %}
 			</p>
