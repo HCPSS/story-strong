@@ -9,6 +9,15 @@
   }  
 }
 
+.btn--base {
+  @include button($gray--dark, $classic-white);
+  @include shadow($heading--light);
+    & a {
+    text-decoration: none;
+    color: $classic-white;
+    }
+}
+
 .story-tile__img {
   @media screen and (max-width: $x-large) { text-align: center; }
 }
@@ -20,7 +29,7 @@
   @include shadow($prim);
   @media screen and (min-width: $largest) { 
     @include span(2 of 4 split);
-    height: em(285px);
+    height: em(300px);
     margin: gutter(12);
     padding: gutter(6);
   }
@@ -56,12 +65,7 @@
     }
   }
   & .btn--sm { 
-    @include button($gray--dark, $classic-white);
-    @include shadow($heading--light);
-    & a {
-      text-decoration: none;
-      color: $classic-white;
-    }
+    @extend .btn--base;
   }  
 }
 
