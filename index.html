@@ -1,25 +1,30 @@
 ---
 layout: default
-title: Student Stories - HCPSS StoryStrong
+title: Student Stories
 ---
+
+{% assign primFeaturePost = site.posts | where: "prim-featured", true %}
+{% assign secFeaturedPost = site.posts | where: "sec-featured", true %}
 
 <section class="section__prim-feature">
   <div class="section__prim-feature--story">
     <p>HCPSS students answer the question:</p>
     <h1>What's Shaped You?</h1>
+    {% for p in primFeaturePost %}
     <article>
-      <h4>Tanya, Glenelg HS, Class of 2018</h4>
-      <p>Tanya helped build houses in Brazil over the summer. This inspired her to do more at home to help those who are less fortunate.</p>
-      <div class="btn--sm">
-      <a href="{{ site.baseurl }}2017/01/23/service-projects">
-        <p>Read Tanya's story</p>
-      </a>
-      </div>
+        <h4>{{ p.author }}</h4>
+        <p>{{ p.summary }}</p>
+        <div class="btn--sm">
+          <a href="{{ site.baseurl }}{{ p.url }}">
+            <p>{{ p.btn }}</p>
+          </a>
+        </div>
     </article>
+    </div>
+    <div class="section__prim-feature--img">
+      <img src="{{ p.prof-img }}">
   </div>
-  <div class="section__prim-feature--img">
-    <img src="{{ site.baseurl }}img/headshot-cover.jpg">
-  </div>
+  {% endfor %}
 </section>
 
 <section class="angle-before">
@@ -27,57 +32,22 @@ title: Student Stories - HCPSS StoryStrong
     <div class="h-center h-center--btm-padding">
       <h2>Read other students’ responses to “What’s Shaped You?”</h2>
     </div>
+    {% for q in secFeaturedPost %}
     <article class="story-tile">
       <section class="row">
         <div class="story-tile__img">
-          <img src="https://placehold.it/200x200">
+          <img src="{{ q.prof-img }}">
         </div>
-        <h3>Computer science made me a better student</h3>
-        <h4>Xavier, Marriotts Ridge HS, Class of 2018</h4>
-        <p>Xavier has a love for code. He’s noticed through daily coding exercises that his math skills have improved, along with his overall academic performance.</p>
+        <h3>{{ q.title }}</h3>
+        <h4>{{ q.author }}</h4>
+        <p>{{ q.summary }}</p>
         <div class="btn--sm">
-          <p>Watch Xavier’s video</p>
+          <a href="{{ site.baseurl}}{{ q.url }}">
+            <p>{{ q.btn }}</p>
+          </a>
         </div>
       </section>
     </article>
-    <article class="story-tile">
-      <section class="row">
-        <div class="story-tile__img">
-          <img src="https://placehold.it/200x200">
-        </div>
-        <h3>Learning from my mistakes on the court</h3>
-        <h4>Ashley, Oakland Mills HS, Class of 2019</h4>
-        <p>Ashley is an accomplished student athlete going into her senior year. However, she wasn’t always a court star.</p>
-        <div class="btn--sm">
-          <p>Read Ashley's story</p>
-        </div>
-      </section>
-    </article>
-    <article class="story-tile">
-      <section class="row">
-        <div class="story-tile__img">
-          <img src="https://placehold.it/200x200">
-        </div>          
-        <h3>Not giving up on my friends who were struggling</h3>
-        <h4>Jessica, Marriotts Ridge HS, Class of 2020</h4>
-        <p>Jessica had a friend who was going through a rough patch in life. She realized that being a good friend was how she could help</p>
-        <div class="btn--sm">
-          <p>Read Jessica's story</p>
-        </div>
-      </section>       
-    </article>
-    <article class="story-tile">
-      <section class="row">
-        <div class="story-tile__img">
-          <img src="https://placehold.it/200x200">
-        </div>          
-        <h3>How football changed my approach to life</h3>
-        <h4>Edward, Long Reach HS, Class of 2021</h4>
-        <p>High school challenged Edward in ways he didn’t expect, but it was his lessons from the field that got him through some of his roughest patches.</p>
-        <div class="btn--sm">          
-          <p><a href="{{ site.baseurl }}2017/01/23/football-life">Hear Edward’s story</a></p>
-        </div>
-      </section>      
-    </article> 
+    {% endfor %}
   </div>
 </section>
