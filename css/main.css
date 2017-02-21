@@ -403,7 +403,7 @@ nav ul li a {
 .hero-img--post {
   background-image: url();
   background-size: cover !important;
-  height: 43.75em;
+  height: 32.8125em;
   max-width: 100%;
 }
 
@@ -415,7 +415,7 @@ nav ul li a {
 
 @media (min-width: 481px) and (max-width: 620px) {
   .hero-img--post {
-    height: 37.5em;
+    height: 31.25em;
   }
 }
 
@@ -1182,6 +1182,10 @@ nav ul li a {
 }
 
 .post__summ h1 {
+  font-size: 2.15em;
+}
+
+.post__summ h1 {
   margin: 0;
 }
 
@@ -1189,22 +1193,7 @@ nav ul li a {
   color: #95989A;
 }
 
-@media screen and (min-width: 481px) and (max-width: 620px) {
-  .post__summ {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 91.66667%;
-    float: left;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-    padding: 1.25em;
-    margin: 0 auto;
-    float: none;
-  }
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
   .post__summ {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1304,13 +1293,13 @@ nav ul li a {
   padding-bottom: 9.375em;
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width: 621px) and (max-width: 1024px) {
   .post-overhang__inner {
     top: 100px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
   .post-overhang__inner {
     position: relative;
     background-color: #F3F5F7;
@@ -1325,7 +1314,7 @@ nav ul li a {
   margin-top: -100px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
   .post-overhang__outer {
     margin-top: initial;
   }
@@ -1354,30 +1343,24 @@ nav ul li a {
 }
 
 .audio-post__inner-container {
-  margin-top: -20%;
+  margin-top: -12%;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 620px) {
   .audio-post__inner-container {
     margin-top: 0px;
   }
 }
 
-@media (min-width: 481px) and (max-width: 620px) {
-  .audio-post__inner-container {
-    margin-top: -58%;
-  }
-}
-
 @media (min-width: 621px) and (max-width: 768px) {
   .audio-post__inner-container {
-    margin-top: -50%;
+    margin-top: -25%;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1000px) {
   .audio-post__inner-container {
-    margin-top: -40%;
+    margin-top: -20%;
   }
 }
 

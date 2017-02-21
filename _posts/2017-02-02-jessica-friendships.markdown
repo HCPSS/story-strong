@@ -5,9 +5,9 @@ tags: [Atholton High School, Community Service, Class of 2019]
 author: Jessica, Atholton HS, Class of 2019
 summary: Volunteering at her local soup kitchen was a great way for Jessica to wind down during a busy school year.
 prof-img: https://placehold.it/200x200
-btn: Read Jessica's Post
+btn: Hear Jessica's Story
 sec-featured: yes
-bg-img: /story-strong/img/ahs-stock-photo-student-hallway.jpg
+bg-img: /story-strong/img/ahs-students-stock.jpg
 audio-file: http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg
 ---
 

@@ -4,16 +4,12 @@
   background-color: $classic-white;
   padding: $stnd-padding;
   margin: 0 auto;
+  & h1 { font-size: 2.15em; }
   @include shadow($prim);
     & h1 { margin: 0; }
     & h4 { color: $heading--light; }
-  @media screen and (min-width: $small + 1) and (max-width: $medium) {
-    @include span(11 of 12);
-    padding: $stnd-padding;
-    margin: 0 auto;
-    float: none;
-  }
-  @media screen and (max-width: $small) {
+
+  @media screen and (max-width: $medium) {
   	@include span(12 of 12);
   	padding: $stnd-padding;	
   }
@@ -60,10 +56,10 @@
 .post-overhang__inner {
   @include overhang-inner($top: 90px, $height: auto);
   padding-bottom: em(150px);
-  @media screen and (min-width: 481px) and (max-width: $x-large) {
+  @media screen and (min-width: $medium + 1) and (max-width: $x-large) {
     top: 100px;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: $medium) {
     @include overhang-inner($top: 0px, $height: auto);
     padding-bottom: $stnd-padding;
   }
@@ -71,7 +67,7 @@
 
 .post-overhang__outer {
   @include overhang-outer($top: -100px);
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: $medium) {
     margin-top: initial;
   }
 }
@@ -93,11 +89,10 @@
 }
 
 .audio-post__inner-container {
-  margin-top: -20%;
-  @media (min-width: $x-small) and (max-width: $small) { margin-top: 0px; }
-  @media (min-width: $small + 1) and (max-width: $medium) { margin-top: -58%; }
-  @media (min-width: $medium + 1) and (max-width: $large) { margin-top: -50%; }
-  @media (min-width: $large + 1) and (max-width: 1000px) { margin-top: -40%; }
+  margin-top: -12%;
+  @media (min-width: $x-small) and (max-width: $medium) { margin-top: 0px; }
+  @media (min-width: $medium + 1) and (max-width: $large) { margin-top: -25%; }
+  @media (min-width: $large + 1) and (max-width: 1000px) { margin-top: -20%; }
 }
 
 .fb-share-button {
