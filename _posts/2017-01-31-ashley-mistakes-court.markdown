@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Learning from my mistakes on the court
+title: Learning from my Lessons on the Court
 tags: [Oakland Mills High School, Athletics, Class of 2018] 
 author: Ashley, Oakland Mills HS, Class of 2018
-summary: Ashley is an accomplished student athlete going into her senior year. However, she wasn’t always a court star.
-prof-img: /story-strong/img/headshot-3.jpg
+summary: Ashley is an accomplished student athlete going into her senior year. However, it took hard work and determination to get where she is now.
+prof-img: https://placehold.it/200x200
 btn: Read Ashley's Post
 sec-featured: yes
 cur-feat: no

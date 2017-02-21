@@ -1,10 +1,10 @@
 ---
 layout: post-video
-title: Computer science made me a better student
+title: Computer Science Helped me Succeed
 tags: [Marriotts Ridge High School, STEM, Class of 2020] 
 author: Xavier, Marriotts Ridge High School, Class of 2020
 summary: Xavier has a love for code. He’s noticed through daily coding exercises that his math skills have improved, along with his overall academic performance.
-prof-img: /story-strong/img/headshot-6.jpg
+prof-img: https://placehold.it/200x200
 btn: Watch Xavier's Video
 sec-featured: yes
 cur-feat: yes

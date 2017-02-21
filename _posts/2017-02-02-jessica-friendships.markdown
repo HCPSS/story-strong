@@ -1,10 +1,10 @@
 ---
 layout: post-audio
-title: Not giving up on friendships
-tags: [Atholton High School, Relationships, Class of 2019] 
+title: Taking a Break by Volunteering
+tags: [Atholton High School, Community Service, Class of 2019] 
 author: Jessica, Atholton HS, Class of 2019
-summary: Friendships got Jessica through a busy school year. No matter how busy life was, she made sure to maintain friendships and take a break once and a while.
-prof-img: /story-strong/img/headshot-4.jpg
+summary: Volunteering at her local soup kitchen was a great way for Jessica to wind down during a busy school year.
+prof-img: https://placehold.it/200x200
 btn: Read Jessica's Post
 sec-featured: yes
 bg-img: /story-strong/img/ahs-stock-photo-student-hallway.jpg
