@@ -5,6 +5,8 @@ tags: [Long Reach High School, Athletics, Class of 2019]
 author: Edward, Long Reach High School, Class of 2019
 summary: High school challenged Edward in ways he didn’t expect, but it was his lessons from the field that got him through some of his roughest patches.
 prof-img: https://placehold.it/200x200
+btn: Hear Edward's Story
+sec-featured: yes
 bg-img: /story-strong/img/lrhs-football-player.jpg
 audio-file: http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg
 ---
