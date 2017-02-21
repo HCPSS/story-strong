@@ -3,6 +3,7 @@ twitter_username: "hcpss-storystrong"
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 exclude:
   - Gemfile
