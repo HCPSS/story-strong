@@ -33,8 +33,7 @@
     @include story-tile-image;
   }
   & .btn--sm {
-    @include button($gray--dark, $classic-white);
-    @include shadow($heading--light);
+    @extend .btn--base;
   }
 }
 
