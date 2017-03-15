@@ -1016,6 +1016,10 @@ nav ul li a {
   margin-top: -250px;
 }
 
+.current-overhang__tile {
+  height: 32.5em;
+}
+
 @media screen and (min-width: 1220px) {
   .current-overhang__tile {
     -moz-box-sizing: border-box;
@@ -1056,12 +1060,12 @@ nav ul li a {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 440px) and (max-width: 767px) {
   .current-overhang__tile {
     box-sizing: border-box;
     width: 100%;
     float: left;
-    height: 28.125em;
+    height: 31.25em;
   }
 }
 

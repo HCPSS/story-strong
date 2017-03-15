@@ -20,12 +20,13 @@
     @include span(5 of 12 last);
     height: em(575px);
   } 
-  @media screen and (max-width: $large - 1) { 
+  @media screen and (min-width: 440px) and (max-width: $large - 1) { 
     box-sizing: border-box;
     width: 100%;
     float: left;
-    height: em(450px);
+    height: em(500px);
   }
+  height: em(520px);
 }
 
 .current-overhang__tile--content {
