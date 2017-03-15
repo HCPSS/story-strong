@@ -300,21 +300,14 @@ nav ul {
 }
 
 nav ul li {
-  display: block;
-  margin-top: 0.2em;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 1.2em;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #636363;
-}
-
-@media screen and (min-width: 480px) {
-  nav ul li {
-    display: inline-block;
-    margin-top: 0;
-    margin-left: 1.2em;
-  }
 }
 
 @media screen and (min-width: 1220px) {
@@ -383,7 +376,7 @@ nav ul li a {
   text-align: center;
   color: #FFFFFF;
   position: relative;
-  top: 40%;
+  top: 32.5%;
 }
 
 .hero-img--base h1:after {
@@ -408,7 +401,7 @@ nav ul li a {
 
 @media (min-width: 320px) and (max-width: 620px) {
   .hero-img--post {
-    height: 25em;
+    height: 18em;
   }
 }
 
@@ -1032,6 +1025,7 @@ nav ul li a {
     float: right;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
+    height: 23.4375em;
   }
 }
 
@@ -1045,6 +1039,7 @@ nav ul li a {
     padding-left: 0.83333%;
     padding-right: 0.83333%;
     margin-left: 8.33333%;
+    height: 35.9375em;
   }
 }
 
@@ -1057,6 +1052,7 @@ nav ul li a {
     float: right;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
+    height: 35.9375em;
   }
 }
 
@@ -1065,6 +1061,7 @@ nav ul li a {
     box-sizing: border-box;
     width: 100%;
     float: left;
+    height: 28.125em;
   }
 }
 
