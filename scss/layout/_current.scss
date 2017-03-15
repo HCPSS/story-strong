@@ -24,9 +24,14 @@
     box-sizing: border-box;
     width: 100%;
     float: left;
-    height: em(500px);
+    height: 28em;
   }
-  height: em(520px);
+  @media screen and (max-width: 439px) {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    height: em(520px);    
+  }
 }
 
 .current-overhang__tile--content {
