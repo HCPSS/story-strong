@@ -20,13 +20,13 @@
     @include span(5 of 12 last);
     height: em(575px);
   } 
-  @media screen and (min-width: 440px) and (max-width: $large - 1) { 
+  @media screen and (min-width: 470px) and (max-width: $large - 1) { 
     box-sizing: border-box;
     width: 100%;
     float: left;
     height: 28em;
   }
-  @media screen and (max-width: 439px) {
+  @media screen and (max-width: 469px) {
     box-sizing: border-box;
     width: 100%;
     float: left;

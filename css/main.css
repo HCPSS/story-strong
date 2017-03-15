@@ -1056,7 +1056,7 @@ nav ul li a {
   }
 }
 
-@media screen and (min-width: 440px) and (max-width: 767px) {
+@media screen and (min-width: 470px) and (max-width: 767px) {
   .current-overhang__tile {
     box-sizing: border-box;
     width: 100%;
@@ -1065,7 +1065,7 @@ nav ul li a {
   }
 }
 
-@media screen and (max-width: 439px) {
+@media screen and (max-width: 469px) {
   .current-overhang__tile {
     box-sizing: border-box;
     width: 100%;
