@@ -7,12 +7,12 @@ title: Student Stories
 {% assign secFeaturedPost = site.posts | where: "sec-featured", true %}
 
 <section class="section__prim-feature">
+  <h1>Students Respond: "What's Shaped You?"</h1>
   <div class="section__prim-feature--story">
-    <p>HCPSS students answer the question:</p>
-    <h1>What's Shaped You?</h1>
     {% for p in primFeaturePost %}
     <article>
-        <h4>{{ p.author }}</h4>
+        <h2>{{ p.title }}</h2>
+        <h3>{{ p.author }}</h3>
         <p>{{ p.summary }}</p>
         <div class="btn--sm">
           <a href="{{ site.baseurl }}{{ p.url }}">
@@ -28,9 +28,9 @@ title: Student Stories
 </section>
 
 <section class="angle-before">
-  <div class="full--stnd-padding">
+  <div class="full--stnd-padding full--stnd-padding-flex">
     <div class="h-center h-center--btm-padding">
-      <h2>Read other students’ responses to “What’s Shaped You?”</h2>
+      <h3>Read other students’ responses to “What’s Shaped You?”</h3>
     </div>
     {% for q in secFeaturedPost %}
     <article class="story-tile">
