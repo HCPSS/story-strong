@@ -1566,7 +1566,7 @@ nav ul li a {
 
 .section__prim-feature--story article .btn--sm {
   float: left;
-  width: 25%;
+  width: 35%;
   background-color: #FFFFFF;
   text-align: center;
   border-radius: 10px;
@@ -1583,7 +1583,7 @@ nav ul li a {
 
 @media screen and (max-width: 620px) {
   .section__prim-feature--story article .btn--sm {
-    width: 75%;
+    width: 100%;
   }
 }
 
