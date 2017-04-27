@@ -37,6 +37,30 @@
   }
 }
 
+.h-center {
+  width: 100%;
+  margin: 0 auto;
+  & h1, h2, h3, h4 {
+    text-align: center;
+  }  
+  &--btm-padding { 
+    padding-bottom: $stnd-padding;
+  }  
+}
+
+.btn--base {
+  @include shadow($heading--light);
+    & a {
+      text-decoration: none;
+      color: $classic-white;
+    }
+}
+
+.callout-lines {
+  padding-left: $stnd-padding;
+  border-left: 2px solid $prim;
+}
+
 .row {
   display: inline-table;
   width: 100%;

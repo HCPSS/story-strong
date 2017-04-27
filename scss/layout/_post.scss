@@ -8,7 +8,6 @@
   @include shadow($prim);
     & h1 { margin: 0; }
     & h4 { color: $heading--light; }
-
   @media screen and (max-width: $medium) {
   	@include span(12 of 12);
   	padding: $stnd-padding;	

@@ -19,11 +19,7 @@
       margin-top: 1em; 
       & .btn--sm { 
         @include button($classic-white, $text, 25%, 50%, 75%);
-        @include shadow($heading--light);
-        & a { 
-          text-decoration: none;
-          color: $text;
-        }
+        @extend .btn--base;
       }
     }
 	}
@@ -45,4 +41,11 @@
     margin-top: .8em;
     margin-bottom: .8em;
   }
+}
+
+.btn--read-more {
+  @include button($white, $gray--dark, 500px, 300px, 100%);
+  @extend .btn--base;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -43,7 +43,9 @@
     @include story-tile-image;
   }
   & .btn--sm {
+    @include button($classic-white, $text, 75%, 75%, 100%);
     @extend .btn--base;
+    @media screen and (min-width: $medium + 1) and (max-width: $x-large) { float: none;margin-left: auto;margin-right: auto; }
   }
 }
 

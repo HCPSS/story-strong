@@ -11,14 +11,14 @@ title: Student Stories
   <div class="section__prim-feature--story">
     {% for p in primFeaturePost %}
     <article>
-        <h2>{{ p.title }}</h2>
-        <h3>{{ p.author }}</h3>
-        <p>{{ p.summary }}</p>
-        <div class="btn--sm">
-          <a href="{{ site.baseurl }}{{ p.url }}">
-            <p>{{ p.btn }}</p>
-          </a>
-        </div>
+      <h2>{{ p.title }}</h2>
+      <h3>{{ p.author }}</h3>
+      <p>{{ p.summary }}</p>
+      <div class="btn--sm">
+        <a href="{{ site.baseurl }}{{ p.url }}">
+          <p>{{ p.btn }}</p>
+        </a>
+      </div>
     </article>
     </div>
     <div class="section__prim-feature--img">
@@ -49,5 +49,10 @@ title: Student Stories
       </section>
     </article>
     {% endfor %}
+    <div class="btn--read-more">
+      <a href="/story-strong/current-stories/">
+        <p>View all StoryStrong student stories</p>
+      </a>
+    </div>
   </div>
 </section>
