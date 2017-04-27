@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jaw Surgery
-tags: [Marriotts Ridge High School, Athletics, Class of 2020] 
+tags: [Marriotts Ridge High School, Class of 2020] 
 author: Josephine, Marriotts Ridge HS, Class of 2020
 summary: A surgery is a very scary experience. Especially when you are unable to communicate pain, discomfort, or needs. The power of a loving family sure helps navigate the windy road to recovery.
 prof-img: https://placehold.it/200x200
@@ -15,9 +15,11 @@ I wake up. I cannot open my eyes. They feel like they are taped shut. I try to s
 
 After I had been able to keep my eyes open for about two minutes straight, a nurse asks me if she would like a parent to come in. I try to nod yes but it hurts too much to move and I know speaking would be worse. I guess she takes my silence as a yes and about a minute later, my dad comes in. He giggles a little bit as he walks in. I don’t blame him. My face feels like the size of a watermelon and it probably is. I just stare at him because I can’t do anything else. I’m almost completely awake and every discomfort is yelling for my attention. How cold I was, how the rubber band the doctors put in my hair to hold it back feels like it's stabbing my head, how the foggy gas that I know is oxygen coming from the gas mask is getting into my eyes, how I want to shift up in my bed because it feels like my neck is cutting off its own pathway for air. 
 
-I try to move my arms to represent me writing something, hoping they will understand that I want to say something. The nurses look at my dad confused but he just smiles and says she wants some paper to write with. One of the nurses nods and goes to get some paper and comes back a short while later. 
+> I try to move my arms to represent me writing something, hoping they will understand that I want to say something. 
 
-> I try to look down at the paper they put in my lap but the pain in my jaw stops me. I pray they will be able to understand what I’m writing because I’m very rapidly getting to the point where I can no longer withstand the discomfort. 
+The nurses look at my dad confused but he just smiles and says she wants some paper to write with. One of the nurses nods and goes to get some paper and comes back a short while later. 
+
+I try to look down at the paper they put in my lap but the pain in my jaw stops me. I pray they will be able to understand what I’m writing because I’m very rapidly getting to the point where I can no longer withstand the discomfort. 
 
 I feel like I can’t breath. I write that three times on the paper. They keep on telling me that I am breathing just fine but it feels like everything is closing in on me. 
 

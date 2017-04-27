@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dearest Insecurities
-tags: [Marriotts Ridge High School, Athletics, Class of 2020]  
+tags: [Marriotts Ridge High School, Class of 2020]  
 author: Lynn, Marriotts Ridge HS, Class of 2020
 summary: Breaking up can be so difficult. Especially when you are breaking up with an internal force that can easily overcome all that you are.
 prof-img: https://placehold.it/200x200
