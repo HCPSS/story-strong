@@ -10,7 +10,7 @@
 }
 
 .btn--base {
-  @include button($gray--dark, $classic-white);
+  @include button($gray--dark, $classic-white, 50%, 75%, 100%);
   @include shadow($heading--light);
     & a {
     text-decoration: none;
@@ -29,19 +29,16 @@
   @include shadow($prim);
   @media screen and (min-width: $largest) { 
     @include span(2 of 4 split);
-    height: em(300px);
     margin: gutter(12);
     padding: gutter(6);
   }
   @media screen and (min-width: $x-large) and (max-width: $largest - 1) {
     @include span(2 of 4 split);
-    height: em(340px);  
     margin: gutter(12);
     padding: gutter(6);
   }
   @media screen and (min-width: $large + 30) and (max-width: $x-large - 1) {
     @include span(2 of 4 split);
-    height: em(475px);
     margin: gutter(12);
     padding: gutter(6);
   } 
@@ -66,6 +63,7 @@
   }
   & .btn--sm { 
     @extend .btn--base;
+    @media screen and (min-width: $medium + 1) and (max-width: $x-large) { float: none;margin-left: auto;margin-right: auto; }
   }  
 }
 
@@ -96,4 +94,9 @@
   position: relative;
   padding: $stnd-padding; 
   background-color: $classic-white;
+}
+
+.callout-lines {
+  padding-left: $stnd-padding;
+  border-left: 2px solid $prim;
 }
