@@ -41,9 +41,9 @@
   box-shadow: 0 2px 4px $color;
 }
 
-@mixin button ($bg-color, $txt-color) {
+@mixin button ($bg-color, $txt-color, $lg-width, $md-width, $sm-width) {
   float: left;
-  width: em(175px);
+  width: $lg-width;
   background-color: $bg-color;
   text-align: center;
   border-radius: 10px;
@@ -52,6 +52,8 @@
     font-size: em(16px);
     padding: gutter(4); 
   }
+  @media screen and (max-width: $medium) { width: $sm-width; }
+  @media screen and (min-width: $medium + 1) and (max-width: $x-large) { width: $md-width; }
 }
 
 @mixin story-tile-image($height : em(150px), $mg-top : gutter(4)) {
