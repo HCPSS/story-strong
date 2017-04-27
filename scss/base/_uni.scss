@@ -15,7 +15,7 @@ h1 {
   @media screen and (min-width: $x-large ) { font-size: em(44px); }
   @media (max-width: $x-small + 20) { font-size: em(32px); }
   font-size: em(36px);
-  font-weight: $font-weight--bold;
+  font-weight: $font-weight--thin;
 }
 
 h2 { 
