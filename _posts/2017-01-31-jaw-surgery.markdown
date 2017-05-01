@@ -4,7 +4,7 @@ title: Jaw Surgery
 tags: [Marriotts Ridge High School, Class of 2020] 
 author: Josephine, Marriotts Ridge HS, Class of 2020
 summary: A surgery is a very scary experience. Especially when you are unable to communicate pain, discomfort, or needs. The power of a loving family sure helps navigate the windy road to recovery.
-prof-img: https://placehold.it/200x200
+prof-img: josephine-yodzis-profile.jpg
 btn: Read Josephine's Story
 sec-featured: yes
 cur-feat: no

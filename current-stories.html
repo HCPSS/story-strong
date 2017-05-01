@@ -16,7 +16,7 @@ main-heading: These Students Have Stories
     <section class="row">
     {% for a in curFeatPost %}
       <div class="current-overhang__tile-img">
-        <img src="{{ a.prof-img }}">
+        <img src="{{ site.headshot-path }}{{ a.prof-img }}">
       </div>
         <h3>{{ a.title }}</h3>
         <h4>{{ a.author }}</h4>
@@ -40,7 +40,7 @@ main-heading: These Students Have Stories
     <article class="story-tile">
       <section class="row">
         <div class="story-tile__img">
-          <img src="{{ post.prof-img }}">
+          <img src="{{ site.headshot-path }}{{ post.prof-img }}">
         </div>
         <h3>{{ post.title }}</h3>
         <h4>{{ post.author }}</h4>

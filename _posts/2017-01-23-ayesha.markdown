@@ -4,7 +4,7 @@ title: Design. Build. Test. Improve.
 tags: [Marriotts Ridge High School, Class of 2020]  
 author: Ayesha, Marriotts Ridge HS, Class of 2020
 summary: The design process parallels the life challenges that Ayesha faces as she struggles with Palindromic Rheumatism.
-prof-img: https://placehold.it/200x200
+prof-img: filler-profile.png
 btn: Read Ayesha's Story
 sec-featured: no
 youtube: yes

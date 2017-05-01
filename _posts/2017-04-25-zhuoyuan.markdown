@@ -4,7 +4,7 @@ title: Yanjie
 tags: [Marriotts Ridge High School, Class of 2020] 
 author: Zhuoyuan (Peter), Marriotts Ridge High School, Class of 2020
 summary: New friendships are cultivated by shared interests, experiences, and worm-throwing adventures. 
-prof-img: https://placehold.it/200x200
+prof-img: peter-li-profile.jpg
 btn: Watch Peter's Video
 sec-featured: yes
 cur-feat: yes

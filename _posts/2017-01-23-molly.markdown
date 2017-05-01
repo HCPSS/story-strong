@@ -4,7 +4,7 @@ title: Battling Anorexia
 tags: [Marriotts Ridge High School, Class of 2020]  
 author: Molly, Marriotts Ridge HS, Class of 2020
 summary: I remember watching a movie about anorexia and thinking 'I wish I had that.' My little twelve year old mind wanted to have an 'attractive' body so badly that I actually wished for a mental illness. Unfortunately, by that point, the onset of one had already begun.
-prof-img: https://placehold.it/200x200
+prof-img: molly-boyle-profile.jpg
 btn: Read Molly's Story
 sec-featured: no
 youtube: yes
