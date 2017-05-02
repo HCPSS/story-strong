@@ -1675,6 +1675,10 @@ footer {
   height: 100px;
 }
 
+footer img {
+  width: 30px;
+}
+
 .footer__inner {
   max-width: 98%;
   margin-left: auto;
