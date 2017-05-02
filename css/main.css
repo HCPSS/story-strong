@@ -395,13 +395,19 @@ nav ul li a {
 
 .hero-img--post {
   background-size: cover !important;
-  height: 32.8125em;
+  height: 34.375em;
   max-width: 100%;
 }
 
 @media (min-width: 320px) and (max-width: 620px) {
   .hero-img--post {
-    height: 18em;
+    height: 28.125em;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 768px) {
+  .hero-img--post {
+    height: 37.5em;
   }
 }
 
@@ -1377,7 +1383,7 @@ nav ul li a {
 
 .post-overhang__outer {
   position: relative;
-  margin-top: -80px;
+  margin-top: -90px;
 }
 
 @media screen and (max-width: 620px) {
@@ -1408,25 +1414,25 @@ nav ul li a {
   }
 }
 
-.audio-post__inner-container {
-  margin-top: -12%;
+.bg-post__inner-container {
+  margin-top: -15%;
 }
 
 @media (min-width: 320px) and (max-width: 620px) {
-  .audio-post__inner-container {
-    margin-top: 0px;
+  .bg-post__inner-container {
+    margin-top: -5%;
   }
 }
 
 @media (min-width: 621px) and (max-width: 768px) {
-  .audio-post__inner-container {
-    margin-top: -25%;
+  .bg-post__inner-container {
+    margin-top: -35.5%;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1000px) {
-  .audio-post__inner-container {
-    margin-top: -20%;
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bg-post__inner-container {
+    margin-top: -25%;
   }
 }
 

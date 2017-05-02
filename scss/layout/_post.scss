@@ -63,7 +63,7 @@
 }
 
 .post-overhang__outer {
-  @include overhang-outer($top: -80px);
+  @include overhang-outer($top: -90px);
   @media screen and (max-width: $medium) {
     margin-top: initial;
   }
@@ -85,11 +85,11 @@
   }
 }
 
-.audio-post__inner-container {
-  margin-top: -12%;
-  @media (min-width: $x-small) and (max-width: $medium) { margin-top: 0px; }
-  @media (min-width: $medium + 1) and (max-width: $large) { margin-top: -25%; }
-  @media (min-width: $large + 1) and (max-width: 1000px) { margin-top: -20%; }
+.bg-post__inner-container {
+  margin-top: -15%;
+  @media (min-width: $x-small) and (max-width: $medium) { margin-top: -5%; }
+  @media (min-width: $medium + 1) and (max-width: $large) { margin-top: -35.5%; }
+  @media (min-width: $large + 1) and (max-width: $x-large) { margin-top: -25%; }
 }
 
 .fb-share-button {

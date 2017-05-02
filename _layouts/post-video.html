@@ -2,7 +2,12 @@
 layout: default
 ---
 
+{% if page.bg-img %}
+<div class="hero-img--post" style="background: url({{ site.bg-path }}{{ page.bg-img }}) no-repeat center 0px;"></div>
+{% endif %}
+
 <article>
+{% if page.bg-img %}<div class="bg-post__inner-container">{% endif %}
 {% include post-summary.html %}
 
   <section class="full--no-mg post-overhang__outer">
@@ -20,4 +25,5 @@ layout: default
       </section>
     </div> 
   </section>
+{% if page.bg-img %}</div>{% endif %}
 </article>

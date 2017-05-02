@@ -1,10 +1,11 @@
 ---
 layout: post-video
 title: My Dog Claire
-tags: [Marriotts Ridge High School, Class of 2020]  
+tags: [Marriotts Ridge High School, Class of 2020, Friends and Family]  
 author: Andrea, Marriotts Ridge HS, Class of 2020
 summary: It's so hard to lose somebody that you love and a member of your family. Even when that somebody is a four-legged furry friend.
 prof-img: andrea-plano-profile.jpg
+bg-img: andrea-plano-bg.jpg
 btn: Watch Andrea's Video
 sec-featured: yes
 youtube: yes

@@ -1,10 +1,11 @@
 ---
 layout: post-video
 title: Words for the Wordless
-tags: [Marriotts Ridge High School, Class of 2020]  
+tags: [Marriotts Ridge High School, Class of 2020, Self-Discovery]  
 author: Audrey, Marriotts Ridge HS, Class of 2020
 summary: Can a simple piece of literature have a profound impact on the makeup of who you are?
 prof-img: audrey-casper-profile.jpg
+bg-img: audrey-casper-bg.jpg
 btn: Watch Audrey's Video
 sec-featured: no
 youtube: yes
