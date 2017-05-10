@@ -22,7 +22,7 @@ title: Student Stories
     </article>
     </div>
     <div class="section__prim-feature--img">
-      <img src="/story-strong/img/headshots/{{ p.prof-img }}">
+      <img src="{{ site.headshot-path }}{{ p.prof-img }}">
   </div>
   {% endfor %}
 </section>
@@ -36,7 +36,7 @@ title: Student Stories
     <article class="story-tile">
       <section class="row">
         <div class="story-tile__img">
-          <img src="/story-strong/img/headshots/{{ q.prof-img }}">
+          <img src="{{ site.headshot-path }}{{ q.prof-img }}">
         </div>
         <h3>{{ q.title }}</h3>
         <h4>{{ q.author }}</h4>
@@ -50,7 +50,7 @@ title: Student Stories
     </article>
     {% endfor %}
     <div class="btn--read-more">
-      <a href="/story-strong/stories/">
+      <a href="{{ site.baseurl}}/stories/">
         <p>View all StoryStrong student stories</p>
       </a>
     </div>

@@ -41,7 +41,7 @@ to the `site_tags` variable. -->
 			    {% for post in site.tags[this_word] %}
 			    {% if post.title != null %}
 			      <div>
-			        <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}</p>
+			        <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
 			      </div>
 			    {% endif %}
 			    {% endfor %}

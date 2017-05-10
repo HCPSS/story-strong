@@ -5,7 +5,7 @@ bg-path: "/story-strong/img/bg/"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /stories/:title/
 
 exclude:
   - Gemfile

@@ -3,7 +3,7 @@ layout: post-video
 title: Standing on a Small Island Alone
 tags: [Marriotts Ridge High School, Class of 2020, Facing Fears] 
 author: Aileen, Marriotts Ridge HS, Class of 2020
-summary: Coming to a new school, with new students and teachers, in an new country is a daunting proposition. Especially when you don't speak a word of English.
+summary: Coming to a new school, with new students and teachers, in an new country is a daunting proposition, especially when you don't speak a word of English.
 prof-img: aileen-cho-profile.jpg
 bg-img: aileen-cho-bg.jpg
 btn: Watch Aileen's Video
