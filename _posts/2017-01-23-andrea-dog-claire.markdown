@@ -7,7 +7,7 @@ summary: It's so hard to lose somebody that you love and a member of your family
 prof-img: andrea-plano-profile.jpg
 bg-img: andrea-plano-bg.jpg
 btn: Watch Andrea's Video
-sec-featured: yes
+sec-featured: no
 youtube: yes
 vid-id: xog5VoVOqk8
 ---
