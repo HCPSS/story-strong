@@ -1,7 +1,7 @@
-baseurl: "/story-strong" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: "hcpss"
-headshot-path: "/story-strong/img/headshots/"
-bg-path: "/story-strong/img/bg/"
+headshot-path: "/img/headshots/"
+bg-path: "/img/bg/"
 
 # Build settings
 markdown: kramdown

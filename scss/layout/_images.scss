@@ -5,7 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-	color: $classic-white;
+	  color: $classic-white;
     position: relative;
     top: 32.5%; 
     &:after {
@@ -24,8 +24,12 @@
   background-size: cover !important;
   height: em(550px);
   max-width: 100%;
-  @media (min-width: $x-small) and (max-width: $medium) { height: em(450px) }
-  @media (min-width: $medium + 1) and (max-width: $large) { height: em(600px) }
+  @media (min-width: $x-small) and (max-width: $medium) { 
+    height: em(450px);
+  }
+  @media (min-width: $medium + 1) and (max-width: $large) { 
+    height: em(600px);
+  }
 }
 
 @media (min-width: $x-small) and (max-width: $small) {

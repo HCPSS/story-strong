@@ -1,13 +1,13 @@
 ---
 layout: post-video
-title: Friendship & Resiliency Through Cheer
+title: Friendship and Resiliency Through Cheer
 tags: [Long Reach High School, Class of 2020, Friends and Family] 
 author: Taylor, Long Reach HS, Class of 2020
 summary: "There's a whole world of cheer that very few people know about: All Star Cheer. This level of competition is tough, but it teaches you a lot about hard work and the importance of teamwork."
 prof-img: taylor-mcconnell-profile.jpg
 bg-img: taylor-mcconnell-bg.jpg
-btn: Hear Taylor's Video
-prim-featured: yes
+btn: Watch Taylor's Video
+sec-featured: no
 youtube: yes
 vid-id: oQMVllvLHvA
 ---

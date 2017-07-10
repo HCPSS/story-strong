@@ -7,8 +7,6 @@ summary: New friendships are cultivated by shared interests, experiences, and wo
 prof-img: peter-li-profile.jpg
 bg-img: peter-li-bg.jpg
 btn: Watch Peter's Video
-sec-featured: yes
-cur-feat: yes
 youtube: yes
 vid-id: TNfgcn1L1aQ
 ---

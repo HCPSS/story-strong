@@ -7,7 +7,7 @@ summary: Coming to a new school, with new students and teachers, in an new count
 prof-img: aileen-cho-profile.jpg
 bg-img: aileen-cho-bg.jpg
 btn: Watch Aileen's Video
-sec-featured: yes
+sec-featured: no
 youtube: yes
 vid-id: AYb0CG8wkJg
 ---

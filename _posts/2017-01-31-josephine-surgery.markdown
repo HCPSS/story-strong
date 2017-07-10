@@ -7,7 +7,7 @@ summary: A surgery is a very scary experience. Especially when you are unable to
 prof-img: josephine-yodzis-profile.jpg
 bg-img: josephine-bg.jpg
 btn: Read Josephine's Story
-sec-featured: yes
+sec-featured: no
 cur-feat: no
 featured: no
 ---

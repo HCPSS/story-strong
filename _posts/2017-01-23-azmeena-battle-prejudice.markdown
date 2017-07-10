@@ -1,13 +1,12 @@
 ---
 layout: post-video
-title: The Way I Chose To Battle Hateful Prejudice 
+title: The Way I Chose to Battle Hateful Prejudice 
 tags: [Marriotts Ridge High School, Class of 2020, Facing Fears]  
 author: Azmeena, Marriotts Ridge HS, Class of 2020
 summary: Experiencing hateful prejudice and discrimination can stir up a broad spectrum of emotions - from sadness to anger and even helplessness.
 prof-img: azmeena-rao-profile.jpg
 bg-img: azmeena-bg.jpg
 btn: Watch Azmeena's Video
-sec-featured: yes
 youtube: yes
 vid-id: A3OkTpryWDo
 ---
