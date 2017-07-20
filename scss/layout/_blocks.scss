@@ -2,11 +2,35 @@
   @media screen and (max-width: $x-large) { text-align: center; }
 }
 
-.story-tile {
+.tile--base {
   display: block;
+  float: left;
   background-color: $classic-white;
   padding: $stnd-padding;
   @include shadow($prim);
+  & h3 {
+    width: 100%;
+    @media screen and (min-width: $x-large) { max-width: 70%; }
+  }
+  & h4 {
+    color: $heading--light;
+  }
+  & .btn--sm { 
+    @include button($gray--dark, $classic-white, 50%, 75%, 100%);
+    @extend .btn--base;
+    @media screen and (min-width: $medium + 1) and (max-width: $x-large) { float: none;margin-left: auto;margin-right: auto; }
+  }
+  & img {
+    @include story-tile-image;
+    @media screen and (min-width: $x-large) {
+      float: right;
+      margin: gutter(4);
+    }
+  }
+}
+
+.story-tile {
+  @extend .tile--base;
   @media screen and (min-width: $x-large) {
     @include span(2 of 4 split);
     margin: gutter(12);
@@ -21,25 +45,24 @@
     width: 100%;
     float: left;
   } 
-  & h3 {
+}
+
+.story-tile__related {
+  @extend .tile--base;
+  @media screen and (min-width: $medium) {
+    width: 44%;
+    margin: 1%;
+    margin-bottom: 1.25em;
+    margin-bottom: 1.25vw;
+    padding: gutter(6);
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+  @media screen and (max-width: $medium - 1px) {
+    box-sizing: border-box;
     width: 100%;
-    @media screen and (min-width: $x-large) { max-width: 70%; }
+    float: left;
   }
-  & h4 {
-    color: $heading--light;
-  }
-  & img {
-    @include story-tile-image;
-    @media screen and (min-width: $x-large) {
-      float: right;
-      margin: gutter(4);
-    }
-  }
-  & .btn--sm { 
-    @include button($gray--dark, $classic-white, 50%, 75%, 100%);
-    @extend .btn--base;
-    @media screen and (min-width: $medium + 1) and (max-width: $x-large) { float: none;margin-left: auto;margin-right: auto; }
-  }  
 }
 
 .thatch-before {
