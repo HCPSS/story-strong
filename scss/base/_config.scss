@@ -1,7 +1,7 @@
 // grid
 
 $susy: (
-  container: 1120px,
+  container: 1280px,
   columns: 12,
   gutters: 1/4,
   math: fluid,
@@ -20,7 +20,7 @@ $font-weight--thin: 100;
 $font-weight--light: 200;
 $font-weight--medium: 300;
 $font-weight--bold: 400;
-$font-weight--ultra-bold: 500;
+$font-weight--ultra-bold: 600;
 
 // color names
 
@@ -31,6 +31,7 @@ $classic-white: #FFFFFF;
 $tundora: #454545;
 $alabaster: #F8F8F8;
 $oslo-gray: #95989A;
+$atlantic: #326b9a;
 
 // functional colors
 
@@ -43,6 +44,7 @@ $text: $dove-gray;
 $heading--light: $oslo-gray;
 $btn-text--light: $alabaster;
 $gray--dark: $dove-gray;
+$link: $atlantic;
 
 // breakpoints 
 
@@ -53,5 +55,7 @@ $large: 768px;
 $x-large: 1024px;
 $largest: 1220px;
 
+// padding 
 
-
+$stnd-padding: em(20px);
+$dble-padding: em(40px);

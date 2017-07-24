@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% if page.bg-img %}
+<div class="hero-img--post" style="background: url({{ site.bg-path }}{{ page.bg-img }}) no-repeat center 0px;"></div>
+{% endif %}
+
+<article>
+{% if page.bg-img %}<div class="bg-post__inner-container">{% endif %}
+{% include post-summary.html %}
+
+  <section class="full--no-mg post-overhang__outer">
+    <div class="container--stnd-padding-sec post-overhang__inner">
+      <section class="post__content">
+        {% include post-tags.html %}
+          {% include post-share.html %}
+          {% if page.vimeo %}
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/{{ page.vid-id }}' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+          {% elsif page.youtube %}
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/{{ page.vid-id }}' frameborder='0' allowfullscreen></iframe></div>
+          {% endif %}
+        <h2>Video Transcript</h2>
+         {{ content }}
+      </section>
+  {% include post-related.html %}
+    </div> 
+  </section>
+{% if page.bg-img %}</div>{% endif %}
+</article>

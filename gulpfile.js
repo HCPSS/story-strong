@@ -46,12 +46,12 @@ gulp.task('style', () => {
   .pipe(gulp.dest(assets));
 })
 
-gulp.task('main-scripts', () => {
+/*gulp.task('main-scripts', () => {
   return gulp.src('js/main.js')
   .pipe(rename({basename: 'main', suffix: '.min'}))
   .pipe(uglify())
   .pipe(gulp.dest(assets));
-})
+})*/
 
 gulp.task('watch', () => {
   gulp.watch(sassInput, ['sass']);
@@ -59,4 +59,4 @@ gulp.task('watch', () => {
   gulp.watch('js/script.js', ['script']);
 })
 
-gulp.task('default', ['delete', 'sass', 'style', 'main-scripts', 'watch'])
+gulp.task('default', ['delete', 'sass', 'style', /*'main-scripts',*/ 'watch'])

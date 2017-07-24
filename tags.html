@@ -1,0 +1,52 @@
+---
+layout: page
+title: Story Tags - HCPSS StoryStrong
+permalink: /tags/
+---
+
+<!-- Get the tag name for every tag on the site and set them
+to the `site_tags` variable. -->
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+
+<!-- `tag_words` is a sorted array of the tag names. -->
+{% assign tag_words = site_tags | split:',' | sort %}
+
+<div class="hero-img--base hero-img--tags">
+  <h1>Browse all of our Stories</h1>
+</div>
+
+<section class="full--no-mg">
+	<section class="container--stnd-padding-sec">
+		<!-- List of all tags -->
+		<section class="col-5 thatch-before">
+			<div class="callout-tile__inner thatch-target">
+			<h2>Story Tags</h2>
+			<p class="tag__marker-group">
+			  {% for item in (0..site.tags.size) %}
+			  {% unless forloop.last %}
+			    {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+			      <a class="tag__marker-item" href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span> </a>
+			  {% endunless %}
+			  {% endfor %}
+			</p>
+			</div>
+		</section>
+
+		<section class="col-7--push-last tagged-posts thatch-sibling">
+			<h2>Posts by Tag</h2>
+			  {% for item in (0..site.tags.size) %}
+			  {% unless forloop.last %}
+			    {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+			    <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
+			    {% for post in site.tags[this_word] %}
+			    {% if post.title != null %}
+			      <div>
+			        <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+			      </div>
+			    {% endif %}
+			    {% endfor %}
+			  {% endunless %}
+			  {% endfor %}
+		</section>
+	</section>
+</section>

@@ -1,0 +1,127 @@
+.post__summ {
+  @include span(10 of 12);
+  float: none;
+  background-color: $classic-white;
+  padding: $stnd-padding;
+  margin: 0 auto;
+  & h1 { font-size: 2.15em; }
+  @include shadow($prim);
+    & h1 { margin: 0; }
+    & h4 { color: $heading--light; }
+  @media screen and (max-width: $medium) {
+  	@include span(12 of 12);
+  	padding: $stnd-padding;	
+  }
+}
+
+.post__summ-img {
+  text-align: center;
+  & img {
+    @include story-tile-image($height : em(125px), $mg-top : gutter(10));
+    float: right;
+    margin-bottom: gutter(4);
+    @media screen and (min-width: $x-large) {
+      float: right;
+      margin-bottom: 0px;
+      margin-left: gutter(6);
+      margin-right: gutter(6);
+    }
+    @media screen and (max-width: $small) { float: none; }
+  }
+}
+
+.post__content {
+  @include span(12 of 12);
+	& blockquote p {
+    font-size: em(22px);
+    font-weight: $font-weight--light;
+  }
+  @media screen and (min-width: $small + 1) and (max-width: $medium) {
+    @include span(11 of 12);
+    margin: 0 auto;
+    float: none;
+    padding: 0;
+  }
+  @media screen and (min-width: $medium + 1) {
+    @include span(10 of 12);
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 1.25em;
+  }
+}
+
+.post-overhang:nth-child(1) { position: relative; }
+
+.post-overhang__inner {
+  @include overhang-inner($top: 60px, $height: auto);
+  padding-bottom: em(150px);
+  @media screen and (max-width: $medium) {
+    @include overhang-inner($top: 0px, $height: auto);
+    padding-bottom: $stnd-padding;
+  }
+}
+
+.post-overhang__outer {
+  @include overhang-outer($top: -90px);
+  @media screen and (max-width: $medium) {
+    margin-top: initial;
+  }
+}
+
+.post__social {
+  position: relative;
+  width: 100%;
+  & span { 
+    float: left;
+  }
+}
+
+.post__img {
+  @include shadow($text);
+  @media screen and (min-width: 950px) {
+    float: right;
+    margin: $stnd-padding;
+  }
+}
+
+.bg-post__inner-container {
+  margin-top: -15%;
+  @media (min-width: $x-small) and (max-width: $medium) { margin-top: -5%; }
+  @media (min-width: $medium + 1) and (max-width: $large) { margin-top: -35.5%; }
+  @media (min-width: $large + 1) and (max-width: $x-large) { margin-top: -25%; }
+}
+
+.fb-share-button {
+  float: left;
+  margin-top: 0px;  
+  background-color: #4267B2;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.twitter-share-button {
+  float: left;
+  display: inline-block;
+  margin-right: em(20px);
+  margin-top: 0;
+  background-color: #1B95E0;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+}
+

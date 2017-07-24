@@ -1,0 +1,59 @@
+---
+layout: page
+title: Current Student Stories
+permalink: /stories/
+main-heading: These Students Have Stories
+---
+
+{% assign curFeatPost = site.posts | where: "cur-feat", true %}
+
+<section class="container--stnd-padding-sec overhang-block">
+  <div class="current-overhang__img">
+    <img src="/img/omhs-students-group-storystrong-stock.jpg">
+  </div>
+  <div class="current-overhang__tile thatch-before">
+  <article class="current-overhang__tile--content thatch-target">
+    <section class="row">
+    {% for a in curFeatPost %}
+      <div class="current-overhang__tile-img">
+        <img src="{{ site.headshot-path }}{{ a.prof-img }}">
+      </div>
+        <h3>{{ a.title }}</h3>
+        <h4>{{ a.author }}</h4>
+        <p>{{ a.summary }}</p>
+      <div class="btn--sm">
+        <a href="{{ site.baseurl}}{{ a.url }}">
+          <p>{{ a.btn }}</p>
+        </a>
+      </div>
+    {% endfor %}
+    </section>
+  </article>
+  </div>
+</section>
+
+<section class="current-overhang__outer">
+<div class="current-overhang__inner">
+  <div class="full--stnd-padding full--stnd-padding-flex">
+    {% for post in site.posts %}
+    {% if post.author != "Tosin, Long Reach HS, Class of 2020" %}
+    <article class="story-tile">
+      <section class="row">
+        <div class="story-tile__img">
+          <img src="{{ site.headshot-path }}{{ post.prof-img }}">
+        </div>
+        <h3>{{ post.title }}</h3>
+        <h4>{{ post.author }}</h4>
+        <p>{{ post.summary }}</p>
+        <div class="btn--sm">
+          <a href="{{ site.baseurl}}{{ post.url }}">
+            <p>{{ post.btn }}</p>
+          </a>
+        </div>
+      </section>
+    </article>
+    {% endif %}
+    {% endfor %}    
+  </div>
+</div>
+</section>

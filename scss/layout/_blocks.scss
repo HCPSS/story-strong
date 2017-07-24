@@ -1,0 +1,95 @@
+.story-tile__img {
+  @media screen and (max-width: $x-large) { text-align: center; }
+}
+
+.tile--base {
+  display: block;
+  float: left;
+  background-color: $classic-white;
+  padding: $stnd-padding;
+  @include shadow($prim);
+  & h3 {
+    width: 100%;
+    @media screen and (min-width: $x-large) { max-width: 70%; }
+  }
+  & h4 {
+    color: $heading--light;
+  }
+  & .btn--sm { 
+    @include button($gray--dark, $classic-white, 50%, 75%, 100%);
+    @extend .btn--base;
+    @media screen and (min-width: $medium + 1) and (max-width: $x-large) { float: none;margin-left: auto;margin-right: auto; }
+  }
+  & img {
+    @include story-tile-image;
+    @media screen and (min-width: $x-large) {
+      float: right;
+      margin: gutter(4);
+    }
+  }
+}
+
+.story-tile {
+  @extend .tile--base;
+  @media screen and (min-width: $x-large) {
+    @include span(2 of 4 split);
+    margin: gutter(12);
+    margin-bottom: 1.25em;
+    margin-bottom: 1.25vw;
+    padding: gutter(6);
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+  @media screen and (max-width: $x-large - 1) {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  } 
+}
+
+.story-tile__related {
+  @extend .tile--base;
+  @media screen and (min-width: $medium) {
+    width: 44%;
+    margin: 1%;
+    margin-bottom: 1.25em;
+    margin-bottom: 1.25vw;
+    padding: gutter(6);
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+  @media screen and (max-width: $medium - 1px) {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+}
+
+.thatch-before {
+  &:before {
+    z-index: 1;
+    position: relative;
+    content: "";
+    display: block;
+    height: 100px;
+    background-image: url(http://s3.amazonaws.com/hcpss.web.site/storystrong/light-thatching-pattern.png);
+    right: -3%;
+  }
+  & > .thatch-target {
+    position: relative;
+    top: -88.5px;
+    z-index: 2;
+  }
+}
+
+.thatch-sibling {
+  @media screen and (max-width: $large - 1) { margin-top: -66px; }
+}
+
+.callout-tile__inner {
+  @include shadow($prim);   
+  display: inline-block; 
+  position: relative;
+  padding: $stnd-padding; 
+  background-color: $classic-white;
+}

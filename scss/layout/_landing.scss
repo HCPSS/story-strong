@@ -1,0 +1,49 @@
+.section__prim-feature {
+	@include container;
+  padding: $stnd-padding;
+  @media screen and (min-width: $large) {
+    height: 25em;
+  }
+  & h1 { 
+    font-weight: 100;
+    text-align: center; 
+    margin-top: .2em;
+    margin-bottom: .6em;
+  }
+	&--story {
+    @include span(12 of 12);
+    @media screen and (min-width: $medium) {
+		  @include span(8 of 12);
+    }
+    & article { 
+      margin-top: 1em; 
+      & .btn--sm { 
+        @include button($classic-white, $text, 35%, 50%, 100%);
+        @extend .btn--base;
+      }
+    }
+	}
+}
+
+.section__prim-feature--img {
+  float: left;
+  height: em(225px);
+  width: 100%;
+  clear: both;
+  text-align: center;
+  @media screen and (min-width: $medium) {
+    @include span(4 of 12 last);
+    clear: none;
+  }
+  @media screen and (max-width: $medium - 1) { margin-top: 1.8em; }
+  & img { 
+    @include story-tile-image($height : em(200px));
+  }
+}
+
+.btn--read-more {
+  @include button($white, $gray--dark, 500px, 300px, 100%);
+  @extend .btn--base;
+  margin-left: auto;
+  margin-right: auto;
+}

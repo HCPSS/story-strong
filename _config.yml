@@ -1,11 +1,11 @@
-title: Your awesome title
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  
+twitter_username: "hcpss"
+headshot-path: "/img/headshots/"
+bg-path: "/img/bg/"
 
 # Build settings
 markdown: kramdown
+permalink: /stories/:title/
 
 exclude:
   - Gemfile
