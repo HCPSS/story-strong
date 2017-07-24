@@ -6,7 +6,6 @@ layout: default
 <div class="hero-img--post" style="background: url({{ site.bg-path }}{{ page.bg-img }}) no-repeat center 0px;"></div>
 {% endif %}
 
-<article>
 {% if page.bg-img %}<div class="bg-post__inner-container">{% endif %}
 
 {% include post-summary.html %}
@@ -16,76 +15,12 @@ layout: default
     <section class="post__content">
       {% include post-tags.html %}
         {% include post-share.html %}
-  	   {{ content }}
+      <article>
+  	    {{ content }}
+      </article>
     </section>
-    <div class="row">
-    	<h2>Related Stories</h2>
-    </div>
-    <section class="full--stnd-padding full--stnd-padding-flex"> 
-  		<article class="story-tile__related">
-				<section class="row">
-	        <div class="story-tile__img">
-	          <img src="/img/headshots/alexandra-mouangue-profile.jpg">
-	        </div>
-	        <h3>My Journey to America</h3>
-	        <h4>Alex, Wilde Lake HS, Class of 2020</h4>
-	        <p>Moving from Cameroon to America presented Alex with a frightening array of challenges as well as an abundance of tremendous friendships.</p>
-	        <div class="btn--sm">
-	          <a href="/stories/alex-journey-america/">
-	            <p>Read Alex's Story</p>
-	          </a>
-	        </div>
-	      </section>
-  		</article>
-  		<article class="story-tile__related">
-				<section class="row">
-	        <div class="story-tile__img">
-	          <img src="/img/headshots/aren-jayachandran-profile.jpg">
-	        </div>
-	        <h3>The First Year of Aren’s New Life</h3>
-	        <h4>Aren, Long Reach HS, Class of 2020</h4>
-	        <p>Rising above an early traumatic childhood, Aren shares many lessons learned on his journey to truly finding himself.</p>
-	        <div class="btn--sm">
-	          <a href="/stories/first-year-arens-new-life/">
-	            <p>Read Aren's Story</p>
-	          </a>
-	        </div>
-	      </section>
-  		</article>
-  		<article class="story-tile__related">
-				<section class="row">
-	        <div class="story-tile__img">
-	          <img src="/img/headshots/caline-temsah-profile.jpg">
-	        </div>
-	        <h3>Turn "I Wish" Into "I Will"</h3>
-	        <h4>Caline, Long Reach HS, Class of 2020</h4>
-	        <p>At ten years old, moving from Lebanon to America without speaking English allowed Caline to reach deep and discover a personal drive that turned her wishes into reality.</p>
-	        <div class="btn--sm">
-	          <a href="/stories/caline-i-wish-into-i-will/">
-	            <p>Watch Caline's Video</p>
-	          </a>
-	        </div>
-	      </section>
-  		</article>
-  		<article class="story-tile__related">
-				<section class="row">
-	        <div class="story-tile__img">
-	          <img src="/img/headshots/caline-temsah-profile.jpg">
-	        </div>
-	        <h3>Turn "I Wish" Into "I Will"</h3>
-	        <h4>Caline, Long Reach HS, Class of 2020</h4>
-	        <p>At ten years old, moving from Lebanon to America without speaking English allowed Caline to reach deep and discover a personal drive that turned her wishes into reality.</p>
-	        <div class="btn--sm">
-	          <a href="/stories/caline-i-wish-into-i-will/">
-	            <p>Watch Caline's Video</p>
-	          </a>
-	        </div>
-	      </section>
-  		</article>
-  	</section>
+  {% include post-related.html %}
   </div> 
 </section>
 
 {% if page.bg-img %}</div>{% endif %}
-
-</article>
