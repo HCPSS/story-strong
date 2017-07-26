@@ -9,7 +9,7 @@ footer {
 }
 
 .footer__inner {
-	max-width: 98%;
+  max-width: 98%;
   margin-left: auto;
   margin-right: auto;
   margin-top: em(40px);
@@ -37,7 +37,7 @@ footer {
 	    @include span(5 of 12); 
 	  }
 	  @media screen and (min-width: $small + 1) and (max-width: $large) { 
-	    @include span(8 of 12); 
+	    @include span(6 of 12); 
 	  }
 	  @media screen and (max-width: $small) {
 	    @include span(12 of 12);
@@ -68,9 +68,7 @@ footer {
   @media screen and (min-width: $large + 1) and (max-width: $largest - 2) {
     @include span(4 of 12 last); 
   }
-	@media screen and (min-width: $small + 1) and (max-width: $large) { 
-	    @include span(4 of 12 last); 
-	}
+
   @media screen and (max-width: $small) {
     @include span(12 of 12);
     & ul { 

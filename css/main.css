@@ -1753,7 +1753,7 @@ footer img {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 66.66667%;
+    width: 50%;
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%;
@@ -1815,18 +1815,6 @@ footer img {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1218px) {
-  .footer__social-media {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 33.33333%;
-    float: right;
-    padding-left: 0.83333%;
-    padding-right: 0.83333%;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
   .footer__social-media {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
