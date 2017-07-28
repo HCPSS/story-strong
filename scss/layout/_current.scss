@@ -2,82 +2,12 @@
   @include overhang-inner($top: 0);
 }
 
-.current-overhang__outer {
-  @include overhang-outer($top: -250px);
-}
-
-.current-overhang__tile {
-  @media screen and (min-width: $largest) {
-    @include span (5 of 12 last);
-    height: em(375px);
-  }
-  @media screen and (min-width: $x-large) and (max-width: $largest - 1) {
-    @include span(4 of 12 );  
-    @include push(1 of 12); 
-    height: em(500px);
-  }
-  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
-    @include span(5 of 12 last);
-    height: em(500px);
-  } 
-  @media screen and (min-width: 470px) and (max-width: $large - 1) { 
-    box-sizing: border-box;
-    width: 100%;
-    float: left;
-    height: em(455px);
-  }
-  @media screen and (max-width: 469px) {
-    box-sizing: border-box;
-    width: 100%;
-    float: left;
-    height: em(470px);   
-  }
-}
-
-.current-overhang__tile--content {
+.pagination {
   display: block;
-  background-color: $classic-white;
-  padding: $stnd-padding;
-  @include shadow($prim);
-  & img {
-    @include story-tile-image;
-  }
-  & .btn--sm {
-    @include button($classic-white, $text, 75%, 75%, 100%);
-    @extend .btn--base;
-    @media screen and (min-width: $medium + 1) and (max-width: $x-large) { float: none;margin-left: auto;margin-right: auto; }
-  }
+  text-align: center;
+  font-size: em(20px);
+  & span { margin-left: 0.35em; margin-right: 0.35em;}
+  & a { color: $link; text-decoration: none; }
+  &__arrows { font-size: em(12px); }
 }
 
-.current-overhang__tile-img {
-  float: none;
-  text-align: center; 
-  @media screen and (min-width: $largest) {
-    padding: gutter(10);
-    float: right;
-    text-align: right;   
-  }  
-}
-
-.current-overhang__img {
-  display: block;
-  @media screen and (min-width: $largest) { @include span(5 of 12); }
-  @media screen and (min-width: $x-large) and (max-width: $largest - 1) {
-    @include span(6 of 12);
-    padding: gutter(6);
-    margin-top: em(140px);
-  }
-  @media screen and (min-width: $large) and (max-width: $x-large - 1) {
-    @include span (7 of 12);
-    padding: gutter(6); 
-    margin-top: em(150px);
-  } 
-  @media screen and (max-width: $large - 1) { 
-    box-sizing: border-box;
-    width: 100%;
-    float: left;
-  }
-  & img {
-    @media screen and (min-width: $largest) { margin-top: gutter(1); }
-  }
-}
