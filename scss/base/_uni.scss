@@ -40,4 +40,12 @@ p {
   font-size: $font-default;
 }
 
+a { 
+    color: $atlantic;
+    text-decoration: none;
+    &:hover {
+      color: darken($atlantic, 10%);
+    }
+  }
+
 img { max-width: 100%; }
