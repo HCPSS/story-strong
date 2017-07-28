@@ -1,0 +1,56 @@
+---
+layout: page
+title: Current Student Stories
+---
+
+<div class="hero-img--base hero-img--tags">
+  <h1>These Students Have Stories</h1>
+</div>
+
+<section class="current-overhang__inner full--no-mg">
+  <div class="full--stnd-padding full--stnd-padding-flex">
+    {% for post in paginator.posts %}
+    <article class="story-tile">
+      <section class="row">
+        <div class="story-tile__img">
+          <img src="{{ site.headshot-path }}{{ post.prof-img }}">
+        </div>
+        <h3>{{ post.title }}</h3>
+        <h4>{{ post.author }}</h4>
+        <p>{{ post.summary }}</p>
+        <div class="btn--sm">
+          <a href="{{ site.baseurl}}{{ post.url }}">
+            <p>{{ post.btn }}</p>
+          </a>
+        </div>
+      </section>
+    </article>
+    {% endfor %}
+
+    {% if paginator.total_pages > 1 %}
+    <div class="row pagination">
+      {% if paginator.previous_page %}
+        <span class="pagination__arrows"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Prev</a></span>
+      {% else %}  
+        <span class="pagination__arrows">&larr; Prev</span>  
+      {% endif %}  
+
+      {% for page in (1..paginator.total_pages) %}  
+        {% if page == paginator.page %}  
+          <span><em>{{ page }}</em>  </span>
+        {% elsif page == 1 %}  
+          <span><a href="/stories/">1</a></span>
+        {% else %}
+          <span><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></span>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <span class="pagination__arrows"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &rarr;</a>  </span>
+      {% else %}
+        <span class="pagination__arrows">Next &rarr;</span>  
+      {% endif %}
+    </div>  
+    {% endif %}
+  </div>
+</section>
