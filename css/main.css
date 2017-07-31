@@ -383,13 +383,13 @@ nav ul li a:hover {
 }
 
 .hero-img--base h1 {
-  width: 40%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   color: #FFFFFF;
   position: relative;
-  top: 32.5%;
+  top: 40%;
 }
 
 .hero-img--base h1:after {
@@ -400,6 +400,10 @@ nav ul li a:hover {
 
 .hero-img--about {
   background: url(https://s3.amazonaws.com/hcpss.web.site/storystrong/chs-stock-group.jpg) no-repeat center 0px;
+}
+
+.hero-img--current {
+  background: url(https://s3.amazonaws.com/hcpss.web.site/storystrong/ahs-group.jpg) no-repeat center 0px;
 }
 
 .hero-img--tags {
@@ -467,8 +471,29 @@ nav ul li a:hover {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .hero-img--about h1, .hero-img--tags h1 {
-    width: 100%;
+  .hero-img--current {
+    background-image: url("https://s3.amazonaws.com/hcpss.web.site/storystrong/ahs-group-480.jpg");
+    background-size: cover !important;
+    height: 25em;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) and (min-width: 320px) and (max-width: 480px) {
+  .hero-img--current {
+    height: 9.375em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) and (min-width: 481px) and (max-width: 620px) {
+  .hero-img--current {
+    height: 15.625em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .hero-img--base h1 {
+    top: 25%;
   }
 }
 
@@ -515,8 +540,23 @@ nav ul li a:hover {
 }
 
 @media (min-width: 481px) and (max-width: 620px) {
-  .hero-img--about h1, .hero-img--tags h1 {
-    width: 80%;
+  .hero-img--current {
+    background-image: url("https://s3.amazonaws.com/hcpss.web.site/storystrong/ahs-group-640.jpg");
+    background-size: cover !important;
+    height: 25em;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 620px) and (min-width: 320px) and (max-width: 480px) {
+  .hero-img--current {
+    height: 9.375em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 620px) and (min-width: 481px) and (max-width: 620px) {
+  .hero-img--current {
+    height: 15.625em;
   }
 }
 
@@ -563,8 +603,23 @@ nav ul li a:hover {
 }
 
 @media (min-width: 621px) and (max-width: 1220px) {
-  .hero-img--about h1, .hero-img--tags h1 {
-    width: 70%;
+  .hero-img--current {
+    background-image: url("https://s3.amazonaws.com/hcpss.web.site/storystrong/ahs-group-1280.jpg");
+    background-size: cover !important;
+    height: 25em;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 1220px) and (min-width: 320px) and (max-width: 480px) {
+  .hero-img--current {
+    height: 9.375em;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 1220px) and (min-width: 481px) and (max-width: 620px) {
+  .hero-img--current {
+    height: 15.625em;
   }
 }
 
