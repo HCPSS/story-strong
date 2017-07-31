@@ -7,8 +7,8 @@ summary: Tosin struggles with lifelong injury caused by somebody she liked very 
 prof-img: tosin-ogundairo-profile.jpg
 bg-img: tosin-ogundairo-bg.jpg
 btn: Read Tosin's Story
-cur-feat: yes
 youtube: no
+sec-featured: no
 ---
 
 <p>Have you ever heard of or experienced the saying you never really value what you have until you lose it? Yes? I have too and in a big way also. It was 2011 and I lived in Nigeria. I was a very excitable and over-active child.</p>

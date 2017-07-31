@@ -1,13 +1,13 @@
 .hero-img--base {
 	@include hero-img;
 	& h1 {
-    width: 40%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 	  color: $classic-white;
     position: relative;
-    top: 32.5%; 
+    top: 40%; 
     &:after {
       content: " ";
       display: block;
@@ -17,6 +17,8 @@
 }	
 
 .hero-img--about { background: url(https://s3.amazonaws.com/hcpss.web.site/storystrong/chs-stock-group.jpg) no-repeat center 0px; }
+
+.hero-img--current { background: url(https://s3.amazonaws.com/hcpss.web.site/storystrong/ahs-group.jpg) no-repeat center 0px; }
 
 .hero-img--tags { background: url(https://s3.amazonaws.com/hcpss.web.site/storystrong/student-band-1280.jpg) no-repeat center 0px; }
 
@@ -35,29 +37,20 @@
 @media (min-width: $x-small) and (max-width: $small) {
   .hero-img--about { @include hero-img($url : "https://s3.amazonaws.com/hcpss.web.site/storystrong/chs-stock-group-480.jpg"); }
   .hero-img--tags { @include hero-img($url : "https://s3.amazonaws.com/hcpss.web.site/storystrong/student-band-480.jpg"); }
-  .hero-img--about, .hero-img--tags {
-    & h1 {
-      width: 100%;
-    }
+  .hero-img--current { @include hero-img($url : "https://s3.amazonaws.com/hcpss.web.site/storystrong/ahs-group-480.jpg"); }
+  & .hero-img--base h1 {
+    top: 25%;
   }
 }
 
 @media (min-width: $small + 1) and (max-width: $medium) {
   .hero-img--about { @include hero-img($url : "https://s3.amazonaws.com/hcpss.web.site/storystrong/chs-stock-group-640.jpg"); }
   .hero-img--tags { @include hero-img($url : "https://s3.amazonaws.com/hcpss.web.site/storystrong/student-band-640.jpg"); }
-  .hero-img--about, .hero-img--tags {
-    & h1 {
-      width: 80%;
-    }
-  }
+  .hero-img--current { @include hero-img($url : "https://s3.amazonaws.com/hcpss.web.site/storystrong/ahs-group-640.jpg"); }
 }
 
 @media (min-width: $medium + 1) and (max-width: $largest) {
   .hero-img--about { @include hero-img($url : "https://s3.amazonaws.com/hcpss.web.site/storystrong/chs-stock-group-1280.jpg"); }
   .hero-img--tags { @include hero-img($url : "https://s3.amazonaws.com/hcpss.web.site/storystrong/student-band-1280.jpg"); }
-  .hero-img--about, .hero-img--tags {
-    & h1 {
-      width: 70%;
-    }
-  }
+  .hero-img--current { @include hero-img($url : "https://s3.amazonaws.com/hcpss.web.site/storystrong/ahs-group-1280.jpg"); }
 }

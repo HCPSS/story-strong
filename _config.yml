@@ -10,6 +10,10 @@ bg-path: "/img/bg/"
 markdown: kramdown
 permalink: /stories/:title/
 
+# Pagination settings
+paginate: 8
+paginate_path: "/stories/page:num/"
+
 exclude:
   - Gemfile
   - Gemfile.lock

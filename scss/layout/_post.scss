@@ -55,7 +55,7 @@
 
 .post-overhang__inner {
   @include overhang-inner($top: 60px, $height: auto);
-  padding-bottom: em(150px);
+  padding-bottom: 4em;
   @media screen and (max-width: $medium) {
     @include overhang-inner($top: 0px, $height: auto);
     padding-bottom: $stnd-padding;

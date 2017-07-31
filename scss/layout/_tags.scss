@@ -9,13 +9,6 @@
   float: left;
   position: relative;
   margin: 0;
-  & a { 
-    color: $atlantic;
-    text-decoration: none;
-    &:hover {
-      color: darken($atlantic, 10%);
-    }
-  }
 }
 
 .tag__marker-group {
