@@ -5,8 +5,8 @@
 	<channel>
 		<title>{{ site.name | xml_escape }}</title>
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
-		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
+		<link>http://storystrong.hcpss.org/</link>
+		<atom:link href="http://storystrong.hcpss.org/{{ page.path }}" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
@@ -18,8 +18,8 @@
 				{% else %}
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<link>http://storystrong.hcpss.org{{ post.url }}</link>
+				<guid isPermaLink="true">http://storystrong.hcpss.org{{ post.url }}</guid>
 			</item>
 		{% endfor %}
 	</channel>
