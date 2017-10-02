@@ -18,7 +18,7 @@ The Peter Li ten years ago was very different from the Peter Li today. Ten years
 
 It was a still summer day. Warm winds swept through the viridian grass and low bushes. Birds, standing high above the ground upon mighty oak trees, chirped their joyous songs overhead. The brilliant sun sent waves of heat crashing down upon all those outside. I was sitting on the sidewalk, attempting to draw a bird’s nest latched onto a thick bush. Even at a young age, I had been fascinated with art. I could sit for hours simply doodling. After moving to America, drawing had become my only passion. It calmed me when I was anxious, raised my spirits when I was down. With no friends and no goals, I had spent that entire summer practicing sketching.
 
-<img class="post__img" src="{{ site.baseurl }}/img/yanjie-story-storystrong.jpg">
+<img class="post__img" src="{{ site.baseurl }}/img/yanjie-story-storystrong.jpg" alt="Peter as a toddler standing with Yanjie”">
 
 All of a sudden, my ears were filled with a loud, shrill, screech. My focus was extinguished and I looked over across the street. A boy about my age stood twenty feet away. He screamed, “Boy who in the heck are you?”. Instead of walking over, I yelled back across the street, “Hello, I’m Peter, what is your name?”. “I’m Yanjie” he responded, “Here, come on over, I’ve got something to show you.”
 

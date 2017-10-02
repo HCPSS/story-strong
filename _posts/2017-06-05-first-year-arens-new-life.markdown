@@ -14,7 +14,7 @@ sum-alt: Profile headshot of Aren
 
 I  moved a lot as a kid. I went to 6 schools before I finished Elementary School. Although, fourth grade was definitely a turning point. The whole year was its own journey. It was my first year of school after the divorce. I felt like I was given a fresh start. I could find myself, I was no longer in the control of my abusive dad. I could be a normal kid. I was at a new school, but that didn't bother me, I was used to it. 
 
-<p><img class="post__img" src="/img/story/aren-with-relative-childhood.jpg"></p>
+<p><img class="post__img" src="/img/story/aren-with-relative-childhood.jpg" alt="Aren being held by a female family member as a young child."></p>
 
 Warren Elementary School, Baltimore County, Cockeysville, Maryland. I started the year going to therapy, my mom thought I needed it because my... traumatic childhood. I didn't. To this day my mom questions how I came out of my childhood intact. After maybe 2 months, the therapist said I didn't need to come anymore, she said I was fine. School had been going alright. My best friend was a white kid named Tristan, we didn’t have much in common, other than being huge geeks. Each class in the 4th grade got two tables for lunch so there was naturally a split between the cool, and the not-so-cool kids. Me and Tristan sat with the not-so-cool kids, but I was okay with that. 
 
@@ -32,7 +32,7 @@ I remember almost every time Isaac, Jeremiah, and I would hang out, I’d cry fo
 
 Probably the biggest change was in school nearing the summer. We were having a field day and I was talking with Tristan on the field. Then out of nowhere he started chewing on some grass. Confused, like any normal person, I asked what he was doing. His answer? “I’m half horse,” and he wasn’t kidding, he was serious. This was the most weird thing, in a string of weirdness, from Tristan. I didn’t feel as close to him. So the next day, I simply moved to the cool table. Just to see what it was like. 
 
-<p><img class="post__img" src="/img/story/aren-sitting-at-desk.jpg"></p>
+<p><img class="post__img" src="/img/story/aren-sitting-at-desk.jpg" alt="Aren sitting at a desk writing."></p>
 
 Isaac and I were best friends and he sat there, and the rest of the kids thought I was alright. So I took that life shaking choice. I walked in that cafeteria, and instead of walking left, I walked right. The open seat taunted me. One spot at a lunch table, in an elementary school cafeteria. Same as every other seat, yet it held so much more power. I sat, and it was great. 
 
