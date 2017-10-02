@@ -10,6 +10,7 @@ btn: Read Molly's Story
 sec-featured: no
 youtube: yes
 vid-id: ujrOmgxN7oc
+sum-alt: Profile headshot of Molly
 ---
 
 I was in seventh grade, and I had a great life overall. At the time, I had a group of friends that didn’t treat me right, and had entirely the wrong set of values in mind. This really affected my confidence, and just my personality in general. Around mid-September, I decided to lose weight (even though I was at a healthy weight). I started eating a bit healthier, replacing chips with nuts and chocolate with fruit. I started working out and stretching, and I felt really good. It didn’t last long, though.

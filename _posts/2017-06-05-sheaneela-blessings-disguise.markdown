@@ -8,6 +8,7 @@ prof-img: sheaneela-kabir-profile.jpg
 bg-img: sheaneela-kabir-bg.jpg
 btn: Read Sheaneela's Story
 sec-featured: no
+sum-alt: Profile headshot of Sheaneela
 ---
 
 The brakes squealed as the car halted to a stop as my aunt whispered to my uncle. Sheer shock and fear were clearly shown on my uncle’s face as he and my aunt whispered furiously back and forth. Worried, I asked my cousins, Shieen and Syed, if they knew what was going on. However, they reassured me that everything was fine and we continued to chatter about the birth of my baby sister, Shanaya. Soon enough, my uncle started the car again and we made it to the hospital. Buzzing with excitement, my cousins and I ran towards my dad, hoping that we would be able to meet my little sister. Instead of the bright smile, I expected to see, I was met with teary eyes. I was instantly confused as to why my dad was crying- after all, it was a happy day. As the tears began rolling down his cheeks, I rushed to wipe them with my small hands while fear began to creep into my mind since I had never seen my father cry before. I began to look around as my dad pulled me into a hug and I spotted my aunt who was also wiping away her tears and sniffling every now and then. I grew more and more fearful as well as nervous- why wasn’t anyone telling me what was going on? “Baba?” I called out to my father. Growing up Bengali, I was always taught to call my father, Baba and my mother, Ma. “What’s going on? Where’s Shanaya?” I asked, pulling his sleeve. He then commenced to say the words that forever changed my life: 

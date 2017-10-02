@@ -7,6 +7,7 @@ summary: Breaking up can be so difficult. Especially when you are breaking up wi
 prof-img: filler-profile.png
 btn: Read Lynn's Post
 sec-featured: no
+sum-alt: Graduation cap icon placeholder
 ---
 
 **Dearest Insecurities,**

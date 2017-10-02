@@ -10,6 +10,7 @@ btn: Watch Andrea's Video
 sec-featured: no
 youtube: yes
 vid-id: xog5VoVOqk8
+sum-alt: Profile headshot of Andrea
 ---
 
 Ever since I was three years old. I had always wanted a puppy. I had always wished and dreamed of having a golden retriever as a pet. My sisters and I would beg our mom everyday about getting one, but her response was the same each time. She would say, “Your father is working in Florida during the week and you all would be too young to take care of it.” Though we knew she was right, none of us could actually admit it. Days passed without mentioning anything to my mother about getting a puppy. My sisters, Maria and Julia, stayed quiet as well, for we had lost hope and decided to give my mom time to think about it. When my dad came home from Florida one gloomy night, he suspected that my sisters and I weren’t as happy as we normally were. I remember overhearing him talk to my mom about it in their room, but they closed the door on me so I couldn’t hear anything.

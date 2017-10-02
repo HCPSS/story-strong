@@ -10,6 +10,7 @@ btn: Watch Taylor's Video
 sec-featured: no
 youtube: yes
 vid-id: oQMVllvLHvA
+sum-alt: Profile headshot of Taylor
 ---
 
 I've been cheering for as long as I can remember. My mom put me in gymnastics when I was only 4 years old. I would watch the cheerleaders practice and I begged my mom to let me try out. Eventually she agreed, and when I was 5 years old I tried out at a gym called Unique All Stars. I made the team and I fell in love with the sport. I had so much fun and I won almost every competition. I cheered at Unique for 5 years, but it eventually shut down so I had to find another gym. Most of my friends just quit cheer right there and then, but not me. 

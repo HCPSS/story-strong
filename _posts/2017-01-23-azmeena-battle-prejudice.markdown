@@ -9,6 +9,7 @@ bg-img: azmeena-bg.jpg
 btn: Watch Azmeena's Video
 youtube: yes
 vid-id: A3OkTpryWDo
+sum-alt: Profile headshot of Azmeena
 ---
 
 I am a “terrorist,” I am “Osama Bin Laden’s Daughter,” I will “blow up the school,” I am an “ugly Muslim scum,” I am “a stupid immigrant.” I have been called these many more throughout my life. To people, all I am is some brown, presumably a terrorist, Muslim girl. Most of the people who called me those labels didn’t even know my name for long period of time. They never knew that I like to sing or that I play multiple instruments. They never knew that I like to swim or that I want to be a cardiologist when I grow older. They never knew who I was.

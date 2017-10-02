@@ -7,6 +7,7 @@ summary: Ivanna reflects back on her childhood visits to Puerto Rico to visit fa
 prof-img: ivanna-rodriquez-quiros-profile.jpg
 bg-img: ivanna-rodriquez-quiros-bg.jpg
 btn: Read Ivanna's Story
+sum-alt: Profile headshot of Ivanna
 ---
 
 When I was younger my grandparents and uncle lived in Carolina, Puerto Rico. My mom, my sister and I would go visit every summer, winter break, Thanksgiving break and spring break. I loved everything about those trips. From packing, to going on the airplane, to reuniting with my grandparents and my uncle. Puerto Rico is a beautiful, exotic, and a stunning country. I loved the weather, feeling the warm breeze against my skin. We would never stay in the house, my grandparents loved to take us out on adventures and see all the landmarks and great beautiful places of Puerto Rico. We would go to freshwater lakes, rivers, waterfalls, the Caribbean Sea within the island, hiking on the mountains, and learn all about the Puerto Rican history.

@@ -10,6 +10,7 @@ btn: Watch Audrey's Video
 sec-featured: no
 youtube: yes
 vid-id: ujrOmgxN7oc
+sum-alt: Profile headshot of Audrey
 ---
 
 I have spent the better half of my life marveling at the fact that every decision one makes, no matter how small, affects the entire course of their life. With a single different choice, I would not be the same person as I am today, and the version of myself in which I am perceived would be completely different as well. I can apply this theory to most aspects of my life, but as someone who has never had huge, definite events to change me, I often find myself reflecting on times in which my mindset has changed due to me wanting it to. Fundamentally, I do not feel very different than my past selves. I have always been reserved, stubborn, and lost in emotions that are so strong that I cannot even begin to conjure up the words to describe them. But then again, are there words to explain the aching, burning feeling in my hands as I watched my dog’s nose twitch even as the veterinarian told us that she was successfully put under? Are there words to explain that when I feel regret, I feel split down the middle, my stomach trying to pull my tongue back down as to muffle the sound waves? These traits of mine makes it very difficult to tell stories without the emotion being lost in translation, but I know for certain that I can share the impact that reading has had on me without a loss for words. 

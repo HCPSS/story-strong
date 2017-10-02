@@ -10,6 +10,7 @@ btn: Watch Caline's Video
 sec-featured: yes
 youtube: yes
 vid-id: KXHwws0Ux9Y
+sum-alt: Profile headshot of Caline
 ---
 
 Moving would be easy... I mean at least that's what they said. They told me to remember that even though you're miles away from each other were always going to be under the same sky looking at the same moon and sun. Yes moving was easy but what I left behind is what made it hard. Before coming to the United States I lived in Lebanon. I went to a private school that was under a French system which means I only learned French and Arabic. I was 10 and not completely ready. I was scared, but mostly excited. When the plane landed my family and I were in full ski gear – not really ready for the weather! The first couple months was just us adjusting to the weather, the people, and most importantly the language. The first day of sixth grade I remember as if it was yesterday. I woke up early and my mom had went to school with me. I remember us trying to figure out how to open a locker. Looking back, it was pretty funny. I kept telling my mom, “I'm trying I'm trying!” She said, “Willing is not enough - you must DO.” That stuck with me... After a couple tries, we got the teacher to open the locker with the key because I just wasn't going anywhere. My ESOL class was the only class I felt comfortable in, the only class that made me feel... Normal. 

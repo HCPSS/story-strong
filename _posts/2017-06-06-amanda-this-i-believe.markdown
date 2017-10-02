@@ -9,6 +9,7 @@ bg-img: amanda-holden-bg.jpg
 btn: Read Amanda's Story
 sec-featured: no
 youtube: no
+sum-alt: Profile headshot of Amanda
 ---
 
 <p>After I got confirmed in April 2016, my faith in God has been stronger than ever. When I was a little kid I never wanted to go to church and my mom would force me to. I’d always procrastinate and not put on my church socks that I hated with a passion. Those past the ankle white socks with the little lace frilly fringes that drooped over the top of the sock. I never wanted to go to church. As I got older, I started to mature as a person and started being more open minded. I’d always believed in God and Jesus since I could remember because I was baptized when I was just 5 months old, but nothing ever pushed me to go to church,(except my mom) because I was young and I didn't really understand the way I do now. As I got past the elementary school not wanting to go to church phase, I entered middle school. </p>

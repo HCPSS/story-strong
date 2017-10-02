@@ -9,6 +9,7 @@ bg-img: tosin-ogundairo-bg.jpg
 btn: Read Tosin's Story
 youtube: no
 sec-featured: no
+sum-alt: Profile headshot of Tosin
 ---
 
 <p>Have you ever heard of or experienced the saying you never really value what you have until you lose it? Yes? I have too and in a big way also. It was 2011 and I lived in Nigeria. I was a very excitable and over-active child.</p>

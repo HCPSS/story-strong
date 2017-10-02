@@ -9,6 +9,7 @@ bg-img: haley-lynch-bg.jpg
 btn: Read Haley's Story
 prim-featured: no
 sec-featured: no
+sum-alt: Profile headshot of Haley
 ---
 
 Girls like boys. Boys like girls. That’s what I was taught. Gay is bad. Bisexual is lying to yourself. Pansexual doesn’t exist. Kissing a boy’s cheek was love, but kissing a girl’s was being too friendly. These are the ideals that I was taught as a young child. I was in the fourth grade, when I realized something was “wrong”. I met her. Her beautiful long black hair, and smile that could lighten up a room. She was beautiful and perfect in every aspect of the word. My fourth grader heart wanted to be with her, but girls love boys not girls. We could only be friends and I was unhappy with that. 

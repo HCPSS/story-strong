@@ -10,6 +10,7 @@ btn: Watch Aileen's Video
 sec-featured: no
 youtube: yes
 vid-id: AYb0CG8wkJg
+sum-alt: Profile headshot of Aileen
 ---
 
 In August of 2016, I landed on United States, leaving all of my old friends, my dog, my school, everything to learn English. The sky was very high and clear and I could feel the hot sunlight giving heat to the air. The weather was nice but not to me. Everything came to me with fear. 

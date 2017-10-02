@@ -9,6 +9,7 @@ bg-img: diam-queym-bg.jpg
 btn: Watch Diam's Video
 youtube: yes
 vid-id: uaVrwx28SQs
+sum-alt: Profile headshot of Diam
 ---
 
 <figure>

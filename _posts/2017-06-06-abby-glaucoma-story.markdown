@@ -10,6 +10,7 @@ btn: Watch Abby's Video
 sec-featured: no
 youtube: yes
 vid-id: 1AfxYj1vEOE
+sum-alt: Profile headshot of Abby
 ---
 
 <p>A normal birth I thought. My first daughter I thought. At that moment I was ready for my beautiful flower to blossom. I thought there would be no complications. That she would just come and I would be the happiest mother on Earth, I was wrong. During the painful and unbearable birth the doctor noticed that she wasn’t coming out. Pain, shock and worry surrounded my mind like a crowded train, and I was in the middle trying to find a seat with the answer I needed. The doctor acted with urgency to get her out. Eventually, she was able to get out. The answer I was looking for was finally found. The umbilical was wrapped around her neck three times. But how? All that mattered to me in that moment was that she was finally here. I gave birth to my first daughter. “Her eyes are big and blue,” the Doctor said. I was a little confused; blue eyes aren&#39;t usually common in African American kids. The doctor said everything was fine after she checked everything, so we went home to start our new lives with our newborn baby girl.</p>

@@ -9,6 +9,7 @@ bg-img: alexandra-mouangue-bg.jpg
 btn: Read Alex's Story
 sec-featured: yes
 cur-feat: no
+sum-alt: Profile headshot of Alexandra
 ---
 
 I remember the day we packed everything and headed to the airport. I didn’t know until a month beforehand that my parents signed us up for what my dad calls the "green card lottery". I was a very talkative kid so I made sure I told everyone and said my goodbyes. My best friend Kombou, was first to know. The week before our big trip, we were inseparable. Our walks home from became longer. The time we spent together was more frequent than ever. We tried to spend every minute together because we knew our last few seconds with each other were coming fast. We both knew we wouldn’t be able to talk, she had no computer or phone and neither did I. We didn’t want to admit it but we also knew we would never see each other again. I knew I would never see her beautiful, tan skin, or soft, brown eyes again. 

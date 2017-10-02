@@ -9,6 +9,7 @@ bg-img: peter-li-bg.jpg
 btn: Watch Peter's Video
 youtube: yes
 vid-id: TNfgcn1L1aQ
+sum-alt: Profile headshot of Peter
 ---
 
 The Peter Li ten years ago was very different from the Peter Li today. Ten years ago, I, a clueless five year old, had just moved to America. Back then I lived in a small apartment on the outskirts of the town  Rodgers Forge in Baltimore County. 

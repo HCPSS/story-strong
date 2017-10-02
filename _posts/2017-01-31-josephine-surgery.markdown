@@ -10,6 +10,7 @@ btn: Read Josephine's Story
 sec-featured: no
 cur-feat: no
 featured: no
+sum-alt: Profile headshot of Josephine
 ---
 
 I wake up. I cannot open my eyes. They feel like they are taped shut. I try to say something but am stopped by an indescribable pain in my mouth. I’m so confused. My face hurts but yet, it is numb at the same time, my nose is stuffy, I can’t tell how I am breathing I just know that it is getting harder. Finally, I am able to push open my eyes for a second. I vaguely see a nurse standing in a corner before I have to close my eyes again because they burn. I remember that I just had my surgery and I calm down a little bit. I wave in and out of sleep for a while, I’m not sure how long though.

@@ -9,6 +9,7 @@ bg-img: alana-smith-bg.jpg
 btn: Read Alana's Story
 sec-featured: no
 youtube: no
+sum-alt: Profile headshot of Alana
 ---
 
 <p>Alana would always cover her mouth when she laughed, she’d always look away when she smiled, and would always fold her arms like she is sealing away a secret she has to hide every time she wears short sleeves. I always wondered why she did these things, it was like she was concealing her uniqueness and beauty. </p>

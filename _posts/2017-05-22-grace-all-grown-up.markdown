@@ -8,6 +8,7 @@ prof-img: grace-valdez-profile.jpg
 bg-img: grace-valdez-bg.jpg
 btn: Read Grace's Story
 sec-featured: no
+sum-alt: Profile headshot of Grace
 ---
 
 People like to say that you’ve never really experienced life until you get older and understand things a lot more better so as a kid I never worried about “adult” things. I kept to myself, played with my toys, ate my vegetables, did my chores, I played my games, cleaned my room, and even did my homework even though I despised it. I lived the perfect middle to lower class life, I mean yeah my family was never “rich” but we managed and had things we needed most. I never worried about problems with money or my education, being nearly 7 I knew no better and figured life was all unicorns, puppies, and rainbows and figured there was no better way to live than the way my family was getting past. 

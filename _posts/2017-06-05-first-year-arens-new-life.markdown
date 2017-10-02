@@ -9,6 +9,7 @@ bg-img: aren-jayachandran-bg.jpg
 btn: Read Aren's Story
 sec-featured: yes
 youtube: no
+sum-alt: Profile headshot of Aren
 ---
 
 I  moved a lot as a kid. I went to 6 schools before I finished Elementary School. Although, fourth grade was definitely a turning point. The whole year was its own journey. It was my first year of school after the divorce. I felt like I was given a fresh start. I could find myself, I was no longer in the control of my abusive dad. I could be a normal kid. I was at a new school, but that didn't bother me, I was used to it. 

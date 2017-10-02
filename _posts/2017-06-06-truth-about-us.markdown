@@ -9,6 +9,7 @@ bg-img: estefania-hernandez-aguirre-bg.jpg
 btn: Read Estefania's Story
 sec-featured: yes
 youtube: no
+sum-alt: Profile headshot of Estefania
 ---
 
 <p>To whoever reads this,</p>

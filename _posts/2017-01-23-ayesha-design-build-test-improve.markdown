@@ -9,6 +9,7 @@ btn: Read Ayesha's Story
 sec-featured: no
 youtube: yes
 vid-id: 5zoYb0ywTHw
+sum-alt: Graduation cap icon placeholder
 ---
 
 <figure>

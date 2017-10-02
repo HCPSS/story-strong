@@ -10,6 +10,7 @@ btn: Read Ekta's Story
 sec-featured: no
 prim-featured: yes
 youtube: no
+sum-alt: Profile headshot of Ekta
 ---
 
 September 22, 2016, it was a good day with the perfect amount sun and the mild weather! But my cousin and I came home to my non-English-speaking grandparents starving, so I decided to make mozzarella sticks. I turn on the stove to high and took out the frier. I also had to use the bathroom so I thought while the oil gets hot, let me go change into comfy clothes and use the bathroom. As I go upstairs, instead of changing, I lay in my bed for 10 minutes. Then I realized I should go change and go back downstairs. After changing I used the bathroom. But all of the sudden the fire alarm goes off and my grandfather starts screaming my name. So I go down to and I see the fire. The fryer was covered with flames and smoke was everywhere. My grandfather opened the door. 

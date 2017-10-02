@@ -9,6 +9,7 @@ bg-img: rachel-van-odsel-bg.jpg
 btn: Listen to Rachel's Story
 sec-featured: no
 audio-file: ../../audio/rachel-t1d-story.mp3
+sum-alt: Profile headshot of Rachel
 ---
 
 My kindergarten check-up with my pediatrician changed my life forever. I left Doctor Landrum's office with my mom and headed straight for Howard County General Emergency. Once there, I was quickly given insulin to bring down my sky high blood sugar. This would be the first of many shots needed to manage my disease.

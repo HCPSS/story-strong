@@ -9,6 +9,7 @@ bg-img: beth-weith-bg.jpg
 btn: Read Beth's Story
 sec-featured: no
 youtube: no
+sum-alt: Profile headshot of Beth
 ---
 
 <p>I am 51 years of age on the calendar. Stuff has happened to me, like it has to all of us. I could tell you a story about the creepy security guard at the apartment complex outside my neighborhood, the one who drove the little red car, who lured seven-year-old me and my brother into his apartment with butterscotch candies. I don’t remember anything, but my brother remembers watching cartoons by himself. But this is not the story I am telling today. I could tell you about the time in college, where as a reckless senior, I survived a run-in with a live electrical wire – yes, true story... and one I never told my parents! But this is not the story I am telling today. I could tell you a tragic story about my mother’s horrible, drawn-out death in an ICU, a life event that took me to my absolutely bottom, and I could share inspiring stories about what I learned about myself and humanity over the slow climb back up from that bottom. Or I could make you sad by telling you about the agonizing death of our beloved family dog, ZuZu, five years ago – an $8,000 attempt to desperately save her beautiful life – yes, that’s how much we wanted her alive and needed her to remain the glue of our family – she, too, agonized in an ICU in Annapolis. Did you know there were ICUs for pets? </p>
