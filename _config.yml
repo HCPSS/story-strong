@@ -19,3 +19,5 @@ exclude:
   - Gemfile.lock
   - [Guardfile]
   - node_modules
+
+gems: [jekyll-paginate]
