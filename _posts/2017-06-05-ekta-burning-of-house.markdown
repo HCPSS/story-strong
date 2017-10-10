@@ -7,8 +7,6 @@ summary: "Near devastation and an understanding family allowed Ekta to learn to 
 prof-img: ekta-patel-profile.jpg
 bg-img: ekta-patel-bg.jpg
 btn: Read Ekta's Story
-sec-featured: no
-prim-featured: yes
 youtube: no
 sum-alt: Profile headshot of Ekta
 ---

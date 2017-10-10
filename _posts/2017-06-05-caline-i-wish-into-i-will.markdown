@@ -7,7 +7,6 @@ summary: "At ten years old, moving from Lebanon to America without speaking Engl
 prof-img: caline-temsah-profile.jpg
 bg-img: caline-temsah-bg.jpg
 btn: Watch Caline's Video
-sec-featured: yes
 youtube: yes
 vid-id: KXHwws0Ux9Y
 sum-alt: Profile headshot of Caline

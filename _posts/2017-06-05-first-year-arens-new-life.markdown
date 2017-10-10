@@ -7,7 +7,6 @@ summary: "Rising above an early traumatic childhood, Aren shares many lessons le
 prof-img: aren-jayachandran-profile.jpg
 bg-img: aren-jayachandran-bg.jpg
 btn: Read Aren's Story
-sec-featured: yes
 youtube: no
 sum-alt: Profile headshot of Aren
 ---

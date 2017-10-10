@@ -7,7 +7,7 @@ summary: Moving from Cameroon to America presented Alex with a frightening array
 prof-img: alexandra-mouangue-profile.jpg
 bg-img: alexandra-mouangue-bg.jpg
 btn: Read Alex's Story
-sec-featured: yes
+
 cur-feat: no
 sum-alt: Profile headshot of Alexandra
 ---

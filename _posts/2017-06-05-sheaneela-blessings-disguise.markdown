@@ -7,7 +7,7 @@ summary: From excitement to panic, the birth and subsequent complications of She
 prof-img: sheaneela-kabir-profile.jpg
 bg-img: sheaneela-kabir-bg.jpg
 btn: Read Sheaneela's Story
-sec-featured: no
+sec-featured: yes
 sum-alt: Profile headshot of Sheaneela
 ---
 
