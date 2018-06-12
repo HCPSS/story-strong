@@ -7,7 +7,6 @@ summary: Growing up in poverty and experiencing abuse, Bill was driven to be an 
 prof-img: bill-barnes-profile.jpg
 bg-img: bill-barnes-bg.jpg
 btn: Read Bill's Story
-prim-featured: yes
 sum-alt: Profile headshot of Bill
 ---
 

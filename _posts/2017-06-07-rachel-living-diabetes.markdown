@@ -1,7 +1,7 @@
 ---
 layout: post-audio
 title: Living with Diabetes
-tags: [Wilde Lake High School, Class of 2020, Finding Strength]  
+tags: [Wilde Lake High School, Class of 2020, Finding Strength]
 author: Rachel, Wilde Lake HS, Class of 2020
 summary: A simple kindergarten check-up changed Rachel's life forever. Managing Type 1 Diabetes has resulted in greater self-discipline and tremendous persistance. 
 prof-img: rachel-van-odsel-profile.jpg

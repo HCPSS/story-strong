@@ -7,7 +7,6 @@ summary: An influential HCPSS teacher led Whitney to pursue her passion in speci
 prof-img: whitney-hogan-profile.jpg
 bg-img: whitney-hogan-bg.jpg
 btn: Read Whitney's Story
-sec-featured: yes
 sum-alt: Profile headshot of Whitney
 ---
 

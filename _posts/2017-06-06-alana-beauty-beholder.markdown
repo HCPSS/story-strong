@@ -3,7 +3,7 @@ layout: post
 title: Beauty is in the Eye of the Beholder
 tags: [Long Reach High School, Class of 2020, Friends and Family] 
 author: Alana, Long Reach HS, Class of 2020
-summary: Struggling with self image, Alana tells the story of a girl who's body displays the struggles of her past and present.
+summary: Struggling with her self image, Alana tells the story of a girl whose body displays the struggles of her past and present.
 prof-img: alana-smith-profile.jpg
 bg-img: alana-smith-bg.jpg
 btn: Read Alana's Story

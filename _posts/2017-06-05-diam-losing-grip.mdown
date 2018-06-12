@@ -9,7 +9,6 @@ bg-img: diam-queym-bg.jpg
 btn: Watch Diam's Video
 youtube: yes
 vid-id: uaVrwx28SQs
-sec-featured: yes
 sum-alt: Profile headshot of Diam
 ---
 
@@ -24,7 +23,7 @@ Feelings and emotions getting the best of me oh</p>
 
 <p><strong>Chorus -</strong></p>
 
-<p>Soo i'm losing<br />
+<p>Soo I'm losing<br />
 Losing my grip, on reality<br />
 Nothing I can't control <br />
 I just need to do this <br />
@@ -32,7 +31,7 @@ On my own</p>
  
 <p><strong>Middle -</strong></p>
 <p>It's a completely different world<br />
-But i'm just going along<br />
+But I'm just going along<br />
 Since the roads are divided<br />
 Choosing the right way is complicated oh</p>
 

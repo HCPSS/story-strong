@@ -7,7 +7,7 @@ summary: Instead of believing the stereotypes found in the media, Estefania shar
 prof-img: estefania-hernandez-aguirre-profile.jpg
 bg-img: estefania-hernandez-aguirre-bg.jpg
 btn: Read Estefania's Story
-sec-featured: yes
+sec-featured: no
 youtube: no
 sum-alt: Profile headshot of Estefania
 ---

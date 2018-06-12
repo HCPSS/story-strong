@@ -7,7 +7,6 @@ summary: A new baby girl struggles with her eyesight, instilling fear in the hea
 prof-img: abby-paul-profile.jpg
 bg-img: abby-paul-bg.jpg
 btn: Watch Abby's Video
-sec-featured: no
 youtube: yes
 vid-id: 1AfxYj1vEOE
 sum-alt: Profile headshot of Abby

@@ -7,7 +7,6 @@ summary: I remember watching a movie about anorexia and thinking 'I wish I had t
 prof-img: molly-boyle-profile.jpg
 bg-img: molly-boyle-bg.jpg
 btn: Read Molly's Story
-sec-featured: no
 youtube: yes
 vid-id: ujrOmgxN7oc
 sum-alt: Profile headshot of Molly
