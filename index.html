@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Student Stories
+title: Student and Staff Stories
 ---
 
 {% assign primFeaturePost = site.posts | where: "prim-featured", true %}
@@ -30,7 +30,7 @@ title: Student Stories
 <section class="angle-before">
   <div class="full--stnd-padding full--stnd-padding-flex">
     <div class="h-center h-center--btm-padding">
-      <h3>Read other students’ responses to “What’s Shaped You?”</h3>
+      <h3>Read other responses to “What’s Shaped You?”</h3>
     </div>
     {% for q in secFeaturedPost %}
     <article class="story-tile">
@@ -51,7 +51,7 @@ title: Student Stories
     {% endfor %}
     <div class="btn--read-more">
       <a href="{{ site.baseurl}}/stories/">
-        <p>View all StoryStrong student stories</p>
+        <p>View all StoryStrong stories</p>
       </a>
     </div>
   </div>
