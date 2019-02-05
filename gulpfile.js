@@ -56,7 +56,7 @@ gulp.task('style', () => {
 gulp.task('watch', () => {
   gulp.watch(sassInput, ['sass']);
   gulp.watch('css/main.css', ['style']);
-  gulp.watch('js/script.js', ['script']);
+  //gulp.watch('js/script.js', ['script']);
 })
 
 gulp.task('default', ['delete', 'sass', 'style', /*'main-scripts',*/ 'watch'])
