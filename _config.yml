@@ -20,4 +20,4 @@ exclude:
   - [Guardfile]
   - node_modules
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
