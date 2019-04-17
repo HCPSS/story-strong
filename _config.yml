@@ -1,6 +1,6 @@
 name: HCPSS StoryStrong
 description: Student and Staff stories from the Howard County Public School System.
-url: http://storystrong.hcpss.org/
+url: https://storystrong.hcpss.org/
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: "hcpss"
 headshot-path: "/img/headshots/"
