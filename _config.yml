@@ -17,7 +17,12 @@ paginate_path: "/stories/page:num/"
 exclude:
   - Gemfile
   - Gemfile.lock
-  - [Guardfile]
+  - Guardfile
+  - gulpfile.js
   - node_modules
+  - package-lock.json
+  - package.json
+  - README.md
+  - scss
 
 plugins: [jekyll-paginate]
